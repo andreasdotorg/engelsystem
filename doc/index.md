@@ -12,6 +12,7 @@ Engelsystem is a shift planning system designed for chaos events, managing volun
 - [Configuration](configuration.md) - Configuration reference
 - [Deployment](deployment.md) - Deployment guide
 - [CI/CD](ci-cd.md) - Continuous integration and deployment
+- [Architecture Review](architecture-review.md) - Architecture & UI/UX assessment with improvement recommendations
 
 ## About This Documentation
 
