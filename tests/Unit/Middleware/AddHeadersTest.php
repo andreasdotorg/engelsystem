@@ -45,4 +45,36 @@ class AddHeadersTest extends TestCase
         $this->assertNotEquals($response, $return);
         $this->assertArraySubset(['Foo-Header' => ['bar!']], $return->getHeaders());
     }
+
+    /**
+     * @covers \Engelsystem\Middleware\AddHeaders::process
+     */
+    public function testHstsHeader(): void
+    {
+        /** @var ServerRequestInterface|MockObject $request */
+        $request = $this->getMockForAbstractClass(ServerRequestInterface::class);
+        /** @var RequestHandlerInterface|MockObject $handler */
+        $handler = $this->getMockForAbstractClass(RequestHandlerInterface::class);
+        $response = new Response();
+
+        $handler->expects($this->once())
+            ->method('handle')
+            ->willReturn($response);
+
+        $config = new Config([
+            'add_headers' => true,
+            'headers' => [
+                'Strict-Transport-Security' => 'max-age=31536000; includeSubDomains',
+            ],
+        ]);
+
+        $middleware = new AddHeaders($config);
+        $return = $middleware->process($request, $handler);
+
+        $this->assertTrue($return->hasHeader('Strict-Transport-Security'));
+        $this->assertEquals(
+            'max-age=31536000; includeSubDomains',
+            $return->getHeaderLine('Strict-Transport-Security')
+        );
+    }
 }
