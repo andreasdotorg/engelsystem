@@ -11,7 +11,7 @@ Each package is scoped to 2-4 hours of implementation time.
 
 | ID | Package | Priority | Status | Completed |
 |----|---------|----------|--------|-----------|
-| WP-01 | Enable HSTS Header | P0 | Not Started | |
+| WP-01 | Enable HSTS Header | P0 | Completed | 2025-12-30 |
 | WP-02 | Rate Limiting Middleware | P0 | Not Started | |
 | WP-03 | Deprecate API Key Query Param | P1 | Not Started | |
 | WP-04 | Audit |raw Twig Filters | P1 | Not Started | |
