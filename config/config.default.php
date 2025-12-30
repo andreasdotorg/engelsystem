@@ -240,7 +240,7 @@ return [
             . 'img-src \'self\' data:;',
         'X-XSS-Protection'        => '1; mode=block',
         'Feature-Policy'          => 'autoplay \'none\'',
-        //'Strict-Transport-Security' => 'max-age=7776000',
+        'Strict-Transport-Security' => 'max-age=31536000; includeSubDomains',
         //'Expect-CT' => 'max-age=7776000,enforce,report-uri="[uri]"',
     ],
 

@@ -112,6 +112,24 @@ The CI/CD pipeline includes Kubernetes deployment support.
 - ConfigMap for configuration
 - Secret for sensitive data
 
+## Security Requirements
+
+### HTTPS/TLS Configuration
+
+**Required:** The application must be served over HTTPS to ensure security headers (especially HSTS) function correctly.
+
+The default configuration includes:
+- **HSTS (HTTP Strict Transport Security):** Enabled with 1-year max-age
+- Applies to all subdomains (`includeSubDomains`)
+- Forces browsers to use HTTPS for all future requests
+
+**Important:** Before deploying with HSTS:
+1. Ensure valid TLS certificate is installed
+2. Verify all resources (images, scripts, styles) are served over HTTPS
+3. Test thoroughly - HSTS cannot be easily disabled once browsers cache the header
+
+**HSTS Preload:** For maximum security, consider submitting your domain to the [HSTS preload list](https://hstspreload.org/) after 90 days of successful HSTS deployment.
+
 ## Web Server Configuration
 
 ### Nginx
