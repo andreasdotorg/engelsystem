@@ -12,12 +12,26 @@ These documents address the legal framework and operational requirements for all
 | [Minor Volunteer Policy](minor-volunteer-policy.md) | Formal policy establishing rules for minor volunteer participation, including age restrictions, activity classifications, and parental consent requirements |
 | [Minor Volunteer Guideline](minor-volunteer-guideline.md) | Operational guideline for Heaven management and Team Leads implementing the minor volunteer policy |
 
+### Primary Legal Sources
+
+| Law | Full Text |
+|-----|-----------|
+| [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) | Jugendarbeitsschutzgesetz (Youth Labor Protection Act) |
+| [KindArbSchV](https://www.gesetze-im-internet.de/kindarbschv/) | Kinderarbeitsschutzverordnung (Child Labor Protection Ordinance) |
+
 ## Document Relationships
 
 ```
 ┌─────────────────────────────────┐
-│   Child Labor Law Analysis      │  ← Legal foundation
+│   Primary Legal Sources         │  ← Authoritative texts
 │   (JArbSchG, KindArbSchV)       │
+│   gesetze-im-internet.de        │
+└───────────────┬─────────────────┘
+                │
+                ▼
+┌─────────────────────────────────┐
+│   Child Labor Law Analysis      │  ← Legal analysis
+│   (Application to CCC)          │
 └───────────────┬─────────────────┘
                 │
                 ▼
@@ -60,4 +74,4 @@ These documents address the legal framework and operational requirements for all
 
 ---
 
-**Last Updated**: December 30, 2025
+**Last Updated**: December 31, 2025

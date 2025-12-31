@@ -7,7 +7,7 @@
 **Applicable To**: All CCC events using Engelsystem (Congress, Camps, regional meetups)
 **Legal Basis**: JArbSchG, KindArbSchV
 **Effective Date**: [To be determined]
-**Last Updated**: December 30, 2025
+**Last Updated**: December 31, 2025
 
 ---
 
@@ -23,7 +23,9 @@ This policy applies to all CCC events that use Engelsystem for volunteer coordin
 
 ### 1.3 Legal Foundation
 
-Organized volunteer work at CCC events constitutes "Beschäftigung" (employment) within the meaning of § 1 Abs. 1 Nr. 3 JArbSchG and does not fall within the exception for occasional courtesy assistance under § 1 Abs. 2 Nr. 1 a) JArbSchG. Accordingly, the Youth Labor Protection Act (Jugendarbeitsschutzgesetz) and the Child Labor Protection Ordinance (Kinderarbeitsschutzverordnung) apply to all volunteer activities. CCC events qualify for the KindArbSchV § 2 Abs. 1 Nr. 5 exception as non-commercial events of a registered association (eingetragener Verein).
+Organized volunteer work at CCC events constitutes "Beschäftigung" (employment) within the meaning of JArbSchG § 1 Abs. 1 Nr. 3 and does not fall within the exception for occasional courtesy assistance under JArbSchG § 1 Abs. 2 Nr. 1 a). Accordingly, the Youth Labor Protection Act (Jugendarbeitsschutzgesetz) and the Child Labor Protection Ordinance (Kinderarbeitsschutzverordnung) apply to all volunteer activities. CCC events qualify for the KindArbSchV § 2 Abs. 1 Nr. 5 exception as non-commercial events of a registered association (eingetragener Verein).
+
+JArbSchG § 5 Abs. 4 creates an important exception for school-age adolescents (*vollzeitschulpflichtige Jugendliche*) during school holidays: they may work under the general adolescent rules (JArbSchG §§ 8-31) rather than the restrictive child rules, for up to four weeks per calendar year. This exception is particularly significant for the Chaos Communication Congress, which takes place between December 27 and 30—a school holiday period in all German states.
 
 ---
 
@@ -97,7 +99,9 @@ Children aged 13-14 years may volunteer under the following conditions:
 
 ### 4.3 School-Age Teens (15-17, Vollzeitschulpflichtig)
 
-Adolescents aged 15-17 who remain subject to compulsory full-time education are treated as children under JArbSchG § 2 Abs. 3. The same restrictions as Section 4.2 apply.
+Adolescents aged 15-17 who remain subject to compulsory full-time education are treated as children under JArbSchG § 2 Abs. 3. **During school term**, the same restrictions as Section 4.2 apply.
+
+**During school holidays** (see Section 4.5), these volunteers may work under the expanded adolescent rules per JArbSchG § 5 Abs. 4, subject to the four-week annual limit.
 
 ### 4.4 Teen Angels (15-17, Completed Vollzeitschulpflicht)
 
@@ -113,6 +117,29 @@ Adolescents aged 15-17 who have completed compulsory full-time education may vol
 | Activities | Broader range permitted (see Section 5) |
 | Parental consent | Recommended (written) |
 | Supervision | Required for certain activities |
+
+### 4.5 School Holiday Rules (JArbSchG § 5 Abs. 4)
+
+During school holiday periods, adolescents aged 15-17 who are still subject to compulsory full-time education (*vollzeitschulpflichtige Jugendliche*) may volunteer under expanded rules equivalent to Teen Angels (Section 4.4). This exception is authorized by JArbSchG § 5 Abs. 4 and applies for a maximum of four weeks per calendar year.
+
+**Events Affected**: The Chaos Communication Congress (December 27-30) falls within school holidays in all German federal states, making this exception applicable to all Congress volunteer activities.
+
+| Restriction | School Days | School Holidays (Congress) |
+|-------------|-------------|---------------------------|
+| Maximum daily hours | 2 hours | 8 hours |
+| Permitted hours | 8:00 - 18:00 | 6:00 - 20:00 |
+| Maximum weekly hours | 10 hours | 40 hours |
+| Rest breaks | Not specified | 30 min after 4.5h; 60 min after 6h |
+| Activity categories | Category A only | Category A and B |
+| Annual limit | N/A | 4 weeks total across all employers |
+
+**Important Limitations**:
+- Night shifts (after 20:00) remain prohibited even during school holidays
+- The four-week annual limit includes all employment, not just CCC volunteering
+- If the volunteer has already used holiday work allowance elsewhere, the child rules apply
+- When in doubt about prior employment, apply the more restrictive rules
+
+**Verification**: Heaven should ask school-age teen volunteers whether they have performed paid work during school holidays earlier in the year to ensure the four-week limit is not exceeded.
 
 ---
 
@@ -168,9 +195,11 @@ The following angel types are unsuitable for any minor:
 ### 5.5 Night Shift Prohibition
 
 Minors may not be assigned to any shift that:
-- Begins before 8:00 (for children/school-age teens) or 6:00 (for teen angels)
-- Ends after 18:00 (for children/school-age teens) or 20:00 (for teen angels)
+- Begins before 8:00 (for children/school-age teens during school term) or 6:00 (for teen angels and school-age teens during school holidays)
+- Ends after 18:00 (for children/school-age teens during school term) or 20:00 (for teen angels and school-age teens during school holidays)
 - Overlaps with the night shift period (2:00 - 6:00)
+
+**Note**: Even during school holidays, the 20:00 cutoff applies to all minors. Night shifts remain categorically prohibited regardless of school holiday status.
 
 ---
 

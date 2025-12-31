@@ -6,7 +6,7 @@
 **Subject**: Applicability of German youth labor protection laws to volunteer participation at Chaos Computer Club events
 **Jurisdiction**: Federal Republic of Germany
 **Analysis Date**: December 2025
-**Last Updated**: December 30, 2025
+**Last Updated**: December 31, 2025
 
 ### Scope
 
@@ -37,11 +37,11 @@ Kinderarbeitsschutzverordnung [KindArbSchV] [Child Labor Protection Ordinance], 
 
 A threshold question for this analysis is whether the Youth Labor Protection Act (Jugendarbeitsschutzgesetz, JArbSchG) applies to volunteer work at all. The law's scope provision in § 1 JArbSchG covers "services similar to employee work," and while it excludes "minor occasional assistance from courtesy," organized volunteer work via Engelsystem—with scheduled shifts, formalized commitments, and operational reliance—does not fall within this exclusion. Accordingly, JArbSchG applies to volunteer activities at CCC events, making compliance with its provisions mandatory.
 
-German youth labor protection law generally prohibits the employment of children, defined under § 2 Abs. 1 JArbSchG as persons who have not yet reached 15 years of age.¹ However, the Child Labor Protection Ordinance (Kinderarbeitsschutzverordnung, KindArbSchV) creates a specific exception for activities at non-commercial events of registered associations.² This exception is directly applicable to Chaos Computer Club e.V. events.
+German youth labor protection law generally prohibits the employment of children, defined under JArbSchG § 2 Abs. 1 as persons who have not yet reached 15 years of age.[^jarbschg-2-1] However, the Child Labor Protection Ordinance (Kinderarbeitsschutzverordnung, KindArbSchV) creates a specific exception for activities at non-commercial events of registered associations.[^kindarbschv-2-1-5] This exception is directly applicable to Chaos Computer Club e.V. events.
 
-The KindArbSchV § 2 Abs. 1 Nr. 5 permits children over 13 years and school-age adolescents (*vollzeitschulpflichtige Jugendliche*) to engage in activities at "non-commercial campaigns and events of churches, religious communities, associations, clubs, and political parties" (*nichtgewerbliche Aktionen und Veranstaltungen der Kirchen, Religionsgemeinschaften, Verbände, Vereine und Parteien*), provided that such activities are light and suitable for children (*leicht und für Kinder geeignet*).³ The Chaos Computer Club e.V., as a registered association (*eingetragener Verein*) under German law, falls squarely within the scope of "Vereine" referenced in this provision.
+KindArbSchV § 2 Abs. 1 Nr. 5 permits children over 13 years and school-age adolescents (*vollzeitschulpflichtige Jugendliche*) to engage in activities at "non-commercial campaigns and events of churches, religious communities, associations, clubs, and political parties" (*nichtgewerbliche Aktionen und Veranstaltungen der Kirchen, Religionsgemeinschaften, Verbände, Vereine und Parteien*), provided that such activities are light and suitable for children (*leicht und für Kinder geeignet*).[^kindarbschv-2-1-text] The Chaos Computer Club e.V., as a registered association (*eingetragener Verein*) under German law, falls squarely within the scope of "Vereine" referenced in this provision.
 
-Lawful participation of minors as volunteers requires satisfaction of several conditions: parental consent, activity suitability, compliance with time restrictions, adequate supervision, and avoidance of hazardous activities. Children under 13 cannot participate under any circumstances, as the KindArbSchV exception applies only to children "over 13" (*Kinder über 13 Jahre*).⁴
+Lawful participation of minors as volunteers requires satisfaction of several conditions: parental consent, activity suitability, compliance with time restrictions, adequate supervision, and avoidance of hazardous activities. Children under 13 cannot participate under any circumstances, as the KindArbSchV exception applies only to children "over 13" (*Kinder über 13 Jahre*).[^kindarbschv-2-1-age]
 
 ---
 
@@ -51,9 +51,9 @@ Lawful participation of minors as volunteers requires satisfaction of several co
 
 Before examining the substantive rules, a threshold question must be addressed: does the Youth Labor Protection Act apply to organized volunteer work at all? Section 1 JArbSchG defines the law's scope of application, and two provisions are directly relevant to this analysis.
 
-Section 1 Abs. 1 JArbSchG provides that the law applies to the "employment" (*Beschäftigung*) of persons under 18 years in four categories: (1) vocational training, (2) employment as an employee or home worker, (3) "other services similar to the work performance of employees or home workers" (*sonstige Dienstleistungen, die der Arbeitsleistung von Arbeitnehmern oder Heimarbeitern ähnlich sind*), and (4) training relationships similar to vocational training.⁴⁹ Category 3 is broadly formulated and extends the law's protection beyond traditional employment relationships.
+JArbSchG § 1 Abs. 1 provides that the law applies to the "employment" (*Beschäftigung*) of persons under 18 years in four categories: (1) vocational training, (2) employment as an employee or home worker, (3) "other services similar to the work performance of employees or home workers" (*sonstige Dienstleistungen, die der Arbeitsleistung von Arbeitnehmern oder Heimarbeitern ähnlich sind*), and (4) training relationships similar to vocational training.[^jarbschg-1-1] Category 3 is broadly formulated and extends the law's protection beyond traditional employment relationships.
 
-Section 1 Abs. 2 Nr. 1 JArbSchG creates an exception: the law does not apply to "minor assistance provided occasionally (a) from courtesy" (*geringfügige Hilfeleistungen, soweit sie gelegentlich aus Gefälligkeit erbracht werden*).⁵⁰ This exception requires three cumulative conditions: the assistance must be (1) minor (*geringfügig*), (2) occasional (*gelegentlich*), and (3) rendered from courtesy (*aus Gefälligkeit*).
+JArbSchG § 1 Abs. 2 Nr. 1 creates an exception: the law does not apply to "minor assistance provided occasionally (a) from courtesy" (*geringfügige Hilfeleistungen, soweit sie gelegentlich aus Gefälligkeit erbracht werden*).[^jarbschg-1-2] This exception requires three cumulative conditions: the assistance must be (1) minor (*geringfügig*), (2) occasional (*gelegentlich*), and (3) rendered from courtesy (*aus Gefälligkeit*).
 
 **§ 1 JArbSchG (Relevant Excerpt)**:
 
@@ -85,7 +85,7 @@ Section 1 Abs. 2 Nr. 1 JArbSchG creates an exception: the law does not apply to 
 
 The critical question is whether organized volunteer work via Engelsystem constitutes "Beschäftigung" under § 1 Abs. 1, or whether it falls within the § 1 Abs. 2 Nr. 1 a) exception for occasional courtesy assistance.
 
-Under German civil law doctrine, a *Gefälligkeitsverhältnis* (courtesy relationship) is characterized by the absence of *Rechtsbindungswille* (intent to create legal obligations).⁵¹ The determination focuses not on the subjective intent of the parties but on how the arrangement appears to an objective observer, considering the interest situation, the type, reason, and purpose of the activity, and whether the beneficiary relies on the commitment.⁵² Where high stakes are involved or where clear reliance exists, courts have found legally binding relationships rather than mere courtesy.⁵³
+Under German civil law doctrine, a *Gefälligkeitsverhältnis* (courtesy relationship) is characterized by the absence of *Rechtsbindungswille* (intent to create legal obligations).[^bgh-gefaelligkeit] The determination focuses not on the subjective intent of the parties but on how the arrangement appears to an objective observer, considering the interest situation, the type, reason, and purpose of the activity, and whether the beneficiary relies on the commitment.[^bghz-21-102] Where high stakes are involved or where clear reliance exists, courts have found legally binding relationships rather than mere courtesy.[^bghz-56-210]
 
 Organized volunteer work at CCC events exhibits several characteristics that distinguish it from mere courtesy assistance:
 
@@ -105,9 +105,9 @@ The consequence of this analysis is that JArbSchG applies to volunteer activitie
 
 ### 1.1 Definitions Under Youth Labor Protection Law
 
-The Youth Labor Protection Act (Jugendarbeitsschutzgesetz, JArbSchG) establishes the foundational definitions for determining which protective rules apply to young persons.⁵ Section 2 defines two categories of protected persons: children (*Kinder*) and adolescents (*Jugendliche*).
+The Youth Labor Protection Act (Jugendarbeitsschutzgesetz, JArbSchG) establishes the foundational definitions for determining which protective rules apply to young persons.[^jarbschg-2] JArbSchG § 2 defines two categories of protected persons: children (*Kinder*) and adolescents (*Jugendliche*).
 
-Under § 2 Abs. 1 JArbSchG, a child is defined as any person who has not yet reached 15 years of age.⁶ Under § 2 Abs. 2 JArbSchG, an adolescent is defined as a person who is 15 but has not yet reached 18 years of age.⁷ A critical provision for practical application is § 2 Abs. 3 JArbSchG, which stipulates that adolescents who remain subject to compulsory full-time education (*Vollzeitschulpflicht*) are treated as children for purposes of the law's protective provisions.⁸ This means that a 15 or 16-year-old still in mandatory schooling is legally treated as a "child" rather than an "adolescent" for purposes of determining applicable restrictions.
+Under JArbSchG § 2 Abs. 1, a child is defined as any person who has not yet reached 15 years of age.[^jarbschg-2-1-def] Under JArbSchG § 2 Abs. 2, an adolescent is defined as a person who is 15 but has not yet reached 18 years of age.[^jarbschg-2-2] A critical provision for practical application is JArbSchG § 2 Abs. 3, which stipulates that adolescents who remain subject to compulsory full-time education (*Vollzeitschulpflicht*) are treated as children for purposes of the law's protective provisions.[^jarbschg-2-3-def] This means that a 15 or 16-year-old still in mandatory schooling is legally treated as a "child" rather than an "adolescent" for purposes of determining applicable restrictions.
 
 The determination of Vollzeitschulpflicht status varies by German federal state (*Bundesland*), as education law falls within state competence. In most states, compulsory full-time education ends after nine or ten years of schooling, typically at age 15 or 16, but individual circumstances may vary.
 
@@ -121,9 +121,9 @@ The determination of Vollzeitschulpflicht status varies by German federal state 
 
 ### 1.2 General Prohibition of Child Employment
 
-Section 5 Abs. 1 JArbSchG establishes the fundamental prohibition: employment of children is forbidden (*Die Beschäftigung von Kindern ist verboten*).⁹ This general prohibition reflects Germany's commitment to protecting children from labor that could harm their development, health, or education.
+JArbSchG § 5 Abs. 1 establishes the fundamental prohibition: employment of children is forbidden (*Die Beschäftigung von Kindern ist verboten*).[^jarbschg-5-1] This general prohibition reflects Germany's commitment to protecting children from labor that could harm their development, health, or education.
 
-However, the prohibition is not absolute. Section 5 Abs. 3 JArbSchG specifies that the prohibition does not apply to employment of children insofar as it is permitted under sections 6 through 7b of the Act.¹⁰ These sections create specific exceptions for theatrical performances, media productions (§ 6), certain light activities for children no longer subject to compulsory schooling (§ 7), and other regulated contexts.
+However, the prohibition is not absolute. JArbSchG § 5 Abs. 3 specifies that the prohibition does not apply to employment of children insofar as it is permitted under sections 6 through 7b of the Act.[^jarbschg-5-3-exception] These sections create specific exceptions for theatrical performances, media productions (§ 6), certain light activities for children no longer subject to compulsory schooling (§ 7), and other regulated contexts.
 
 **§ 5 JArbSchG (Excerpt)**:
 
@@ -135,9 +135,9 @@ However, the prohibition is not absolute. Section 5 Abs. 3 JArbSchG specifies th
 
 ### 1.3 Permitted Activities Under the Child Labor Protection Ordinance
 
-The Child Labor Protection Ordinance (Kinderarbeitsschutzverordnung, KindArbSchV) implements the exceptions authorized by JArbSchG § 5 Abs. 3 in conjunction with JArbSchG § 7 by specifying which activities children over 13 and school-age adolescents may lawfully perform.¹¹
+The Child Labor Protection Ordinance (Kinderarbeitsschutzverordnung, KindArbSchV) implements the exceptions authorized by JArbSchG § 5 Abs. 3 in conjunction with JArbSchG § 7 by specifying which activities children over 13 and school-age adolescents may lawfully perform.[^kindarbschv-2-1]
 
-Section 2 Abs. 1 KindArbSchV provides an exhaustive enumeration of permitted activity categories.¹² Of particular relevance to CCC events is Nr. 5, which permits activities at non-commercial events of associations and similar organizations.
+KindArbSchV § 2 Abs. 1 provides an exhaustive enumeration of permitted activity categories.[^kindarbschv-2-1-list] Of particular relevance to CCC events is Nr. 5, which permits activities at non-commercial events of associations and similar organizations.
 
 **§ 2 Abs. 1 KindArbSchV (Relevant Excerpt)**:
 
@@ -149,9 +149,9 @@ Section 2 Abs. 1 KindArbSchV provides an exhaustive enumeration of permitted act
 >
 > wenn die Beschäftigung leicht und für sie geeignet ist.
 
-The provision lists five categories of organizations whose non-commercial events qualify: churches (*Kirchen*), religious communities (*Religionsgemeinschaften*), federations or umbrella organizations (*Verbände*), registered associations (*Vereine*), and political parties (*Parteien*).¹³ The Chaos Computer Club e.V. is a registered association and therefore falls within the category of "Vereine."
+The provision lists five categories of organizations whose non-commercial events qualify: churches (*Kirchen*), religious communities (*Religionsgemeinschaften*), federations or umbrella organizations (*Verbände*), registered associations (*Vereine*), and political parties (*Parteien*).[^kindarbschv-2-1-orgs] The Chaos Computer Club e.V. is a registered association and therefore falls within the category of "Vereine."
 
-The critical limitation is that activities must be "light and suitable for children" (*leicht und für sie geeignet*). Section 2 Abs. 2 KindArbSchV provides negative guidance by specifying activities that do not meet this standard.¹⁴
+The critical limitation is that activities must be "light and suitable for children" (*leicht und für sie geeignet*). KindArbSchV § 2 Abs. 2 provides negative guidance by specifying activities that do not meet this standard.[^kindarbschv-2-2]
 
 **§ 2 Abs. 2 KindArbSchV**:
 
@@ -163,29 +163,85 @@ The critical limitation is that activities must be "light and suitable for child
 >
 > 3. mit Unfallgefahren verbunden ist, von denen anzunehmen ist, dass Kinder über 13 Jahre und vollzeitschulpflichtige Jugendliche sie wegen mangelnden Sicherheitsbewusstseins oder mangelnder Erfahrung nicht erkennen oder nicht abwenden können.
 
-While § 2 Abs. 2 explicitly addresses only activities under Nr. 3 (agricultural activities), its enumeration of unsuitable characteristics applies by analogy to all permitted activities, as the fundamental "light and suitable" requirement in § 2 Abs. 1 applies universally.¹⁵
+While § 2 Abs. 2 explicitly addresses only activities under Nr. 3 (agricultural activities), its enumeration of unsuitable characteristics applies by analogy to all permitted activities, as the fundamental "light and suitable" requirement in § 2 Abs. 1 applies universally.[^kindarbschv-2-1-suitable]
 
 ### 1.4 Time Restrictions for Children
 
-Section 3 KindArbSchV imposes strict time limitations on when and how long children and school-age adolescents may work.¹⁶
+**Important Correction**: The time restrictions for children are found in **JArbSchG § 5 Abs. 3**, not in KindArbSchV § 3 (which addresses administrative authority powers). The KindArbSchV specifies *which activities* are permitted but does not itself impose time restrictions—those come directly from the parent statute.
 
-Children over 13 and school-age adolescents may not be employed for more than 2 hours per day, with an exception for agricultural family businesses permitting up to 3 hours.¹⁷ Employment may not occur before school instruction and may not take place between 18:00 and 8:00.¹⁸ These restrictions apply regardless of which permitted activity category is invoked.
+JArbSchG § 5 Abs. 3 imposes strict time limitations on when and how long children over 13 and school-age adolescents may work.[^jarbschg-5-3-time]
 
-**§ 3 KindArbSchV (Excerpt)**:
+Children over 13 and school-age adolescents may not be employed for more than 2 hours per day, with an exception for agricultural family businesses permitting up to 3 hours.[^jarbschg-5-3-hours] Employment may not occur before school instruction, during school instruction, and may not take place between 18:00 and 8:00.[^jarbschg-5-3-prohibited] These restrictions apply regardless of which permitted activity category under KindArbSchV is invoked.
 
-> (1) Kinder über 13 Jahre und vollzeitschulpflichtige Jugendliche dürfen nicht mehr als 2 Stunden täglich, in landwirtschaftlichen Familienbetrieben nicht mehr als 3 Stunden täglich beschäftigt werden.
->
-> (2) Die Beschäftigung darf nicht vor dem Schulunterricht und nicht zwischen 18 und 8 Uhr erfolgen.
+**§ 5 Abs. 3 JArbSchG (Relevant Excerpt on Time Restrictions)**:
 
-For school holidays, § 3 Abs. 3 KindArbSchV permits children over 15 to be employed for up to four weeks per calendar year under conditions specified in JArbSchG § 7.¹⁹
+> Die Kinder dürfen nicht mehr als zwei Stunden täglich, in landwirtschaftlichen Familienbetrieben nicht mehr als drei Stunden täglich, nicht zwischen 18 und 8 Uhr, nicht vor dem Schulunterricht und nicht während des Schulunterrichts beschäftigt werden.
 
-### 1.5 Rules for Adolescents Not Subject to Compulsory Schooling
+### 1.5 School Holiday Exception for Vollzeitschulpflichtige Jugendliche
 
-Adolescents aged 15-17 who are no longer subject to compulsory full-time education are governed by the general provisions of JArbSchG for adolescents (*Jugendliche*) rather than the more restrictive KindArbSchV rules.²⁰
+JArbSchG § 5 Abs. 4 creates a significant exception to the restrictive rules for school-age adolescents during school holiday periods:[^jarbschg-5-4]
 
-The primary time restriction for adolescents is found in § 14 Abs. 1 JArbSchG, which provides that adolescents may only be employed between 6:00 and 20:00.²¹ Extended hours until 22:00 are permitted in certain industries, including entertainment and hospitality, for adolescents over 16 years.²²
+**§ 5 Abs. 4 JArbSchG**:
 
-The maximum working hours for adolescents are 8 hours per day and 40 hours per week under § 8 JArbSchG.²³ Required rest breaks are 30 minutes after 4.5 hours of work and 60 minutes after 6 hours under § 11 JArbSchG.²⁴
+> Das Verbot des Absatzes 1 gilt ferner nicht für die Beschäftigung von Jugendlichen (§ 2 Abs. 3) während der Schulferien für höchstens vier Wochen im Kalenderjahr. Auf die Beschäftigung finden die §§ 8 bis 31 entsprechende Anwendung.
+
+**Translation**: The prohibition in paragraph 1 also does not apply to the employment of adolescents [subject to Vollzeitschulpflicht per § 2(3)] during school holidays for a maximum of four weeks per calendar year. The provisions of §§ 8 to 31 shall apply accordingly.
+
+This provision has **critical practical significance for the Chaos Communication Congress**, which takes place annually between December 27 and December 30—a period that falls within school holidays in all German federal states (*Bundesländer*). During this time, *vollzeitschulpflichtige Jugendliche* aged 15-17 may volunteer under the substantially more permissive general adolescent rules rather than the restrictive child rules.
+
+**Comparison of Applicable Rules**:
+
+| Restriction | School Days (Child Rules) | School Holidays (Adolescent Rules) |
+|-------------|---------------------------|-------------------------------------|
+| Maximum daily hours | 2 hours | 8 hours |
+| Maximum weekly hours | 10 hours | 40 hours |
+| Permitted hours | 8:00-18:00 | 6:00-20:00 |
+| Rest breaks | Not specified | 30 min after 4.5h; 60 min after 6h |
+| Activity categories | Light and suitable only | Broader range permitted |
+
+The reference to §§ 8-31 JArbSchG means the full complement of adolescent working time rules, rest period requirements, and employment protections apply.[^jarbschg-8-31] Notably, the night rest provisions of § 14 JArbSchG still limit employment to the period between 6:00 and 20:00—night shifts remain prohibited even during school holidays.[^jarbschg-14]
+
+**Four-Week Annual Limit**: The exception permits employment during school holidays for a maximum of four weeks (*höchstens vier Wochen*) per calendar year. The Congress typically runs four days (December 27-30), well within this limit. However, if a school-age adolescent has already used the four-week allowance through other holiday employment earlier in the year (e.g., summer job), the child rules would apply instead.
+
+### 1.6 Load Weight Exemption for School-Age Adolescents
+
+A significant but often overlooked provision is KindArbSchV § 2 Abs. 2 Satz 2, which creates a **partial exemption** for school-age adolescents (*vollzeitschulpflichtige Jugendliche*) from the load weight restrictions:
+
+> Satz 1 Nr. 1 gilt nicht für vollzeitschulpflichtige Jugendliche.
+
+This means:
+- **Children 13-14**: May NOT regularly handle loads > 7.5 kg or occasionally > 10 kg
+- **School-age adolescents 15-17**: MAY handle heavier loads (Nr. 1 exemption applies), but remain subject to the posture (Nr. 2) and accident hazard (Nr. 3) restrictions
+
+This distinction has practical implications for activity classification at CCC events: a 16-year-old still in school may be assigned to logistics tasks involving heavier equipment that a 14-year-old may not.
+
+### 1.7 Employer Duty to Inform Parents
+
+JArbSchG § 5 Abs. 4b imposes a specific information duty on employers of children:
+
+> Der Arbeitgeber unterrichtet die Personensorgeberechtigten der von ihm beschäftigten Kinder über mögliche Gefahren sowie über alle zu ihrer Sicherheit und ihrem Gesundheitsschutz getroffenen Maßnahmen.
+
+CCC must inform parents/guardians of children (including vollzeitschulpflichtige adolescents) about:
+1. Possible hazards associated with the volunteer activities
+2. All measures taken for the child's safety and health protection
+
+This duty should be incorporated into the parental consent process.
+
+### 1.8 Hour Aggregation Across Multiple Employers
+
+JArbSchG § 4 Abs. 5 establishes that working hours are aggregated across multiple employers:
+
+> Wird ein Kind oder ein Jugendlicher von mehreren Arbeitgebern beschäftigt, so werden die Arbeits- und Schichtzeiten sowie die Arbeitstage zusammengerechnet.
+
+If a minor volunteers at CCC and also has a part-time job, tutoring gig, newspaper delivery route, or other permitted employment elsewhere, ALL hours count toward the daily and weekly limits. CCC should inquire whether minor volunteers have other employment and factor this into scheduling.
+
+### 1.9 Rules for Adolescents Not Subject to Compulsory Schooling
+
+Adolescents aged 15-17 who are no longer subject to compulsory full-time education are governed by the general provisions of JArbSchG for adolescents (*Jugendliche*) rather than the more restrictive KindArbSchV rules.[^jarbschg-2-3-adolescents]
+
+The primary time restriction for adolescents is found in § 14 Abs. 1 JArbSchG, which provides that adolescents may only be employed between 6:00 and 20:00.[^jarbschg-14-1] Extended hours until 22:00 are permitted in certain industries, including entertainment and hospitality, for adolescents over 16 years.[^jarbschg-14-2]
+
+The maximum working hours for adolescents are 8 hours per day and 40 hours per week under § 8 JArbSchG.[^jarbschg-8] Required rest breaks are 30 minutes after 4.5 hours of work and 60 minutes after 6 hours under § 11 JArbSchG.[^jarbschg-11]
 
 **§ 14 Abs. 1 JArbSchG**:
 
@@ -197,17 +253,17 @@ The maximum working hours for adolescents are 8 hours per day and 40 hours per w
 
 ### 2.1 CCC e.V. as "Verein" Under KindArbSchV § 2 Nr. 5
 
-The Chaos Computer Club e.V. is a registered association (*eingetragener Verein*) under German law, having been registered with the local court (*Amtsgericht*) of Hamburg.²⁵ The legal form of the association is unmistakably that of a "Verein" as referenced in KindArbSchV § 2 Abs. 1 Nr. 5.²⁶
+The Chaos Computer Club e.V. is a registered association (*eingetragener Verein*) under German law, having been registered with the local court (*Amtsgericht*) of Hamburg.[^ccc-ev-registration] The legal form of the association is unmistakably that of a "Verein" as referenced in KindArbSchV § 2 Abs. 1 Nr. 5.[^kindarbschv-2-1-5-verein]
 
-The question of whether CCC events constitute "non-commercial campaigns and events" (*nichtgewerbliche Aktionen und Veranstaltungen*) requires examination of the term "nichtgewerblich." Commercial activity (*gewerblich*) in German law typically requires the pursuit of profit through sustained business activity.²⁷ CCC e.V. is a non-profit organization pursuing charitable purposes (*gemeinnützige Zwecke*), and its events are organized to advance these purposes rather than to generate profit.²⁸
+The question of whether CCC events constitute "non-commercial campaigns and events" (*nichtgewerbliche Aktionen und Veranstaltungen*) requires examination of the term "nichtgewerblich." Commercial activity (*gewerblich*) in German law typically requires the pursuit of profit through sustained business activity.[^hgb-1] CCC e.V. is a non-profit organization pursuing charitable purposes (*gemeinnützige Zwecke*), and its events are organized to advance these purposes rather than to generate profit.[^ccc-satzung]
 
-The fact that CCC events charge entrance fees does not convert them into commercial activities, as these fees serve to cover costs rather than generate profit. German legal doctrine distinguishes between cost-recovery fee structures and commercial profit-seeking operations.²⁹ The Chaos Communication Congress and similar events fall within the former category.
+The fact that CCC events charge entrance fees does not convert them into commercial activities, as these fees serve to cover costs rather than generate profit. German legal doctrine distinguishes between cost-recovery fee structures and commercial profit-seeking operations.[^nichtgewerblich] The Chaos Communication Congress and similar events fall within the former category.
 
 Accordingly, the KindArbSchV § 2 Abs. 1 Nr. 5 exception applies to CCC events. Children over 13 and school-age adolescents may engage in activities at these events, subject to the limitations discussed below.
 
 ### 2.2 Suitability of Typical Angel Activities
 
-The volunteer management system (Engelsystem) coordinates various types of volunteer activities, each of which must be assessed for suitability under the "light and suitable for children" (*leicht und für Kinder geeignet*) standard.³⁰
+The volunteer management system (Engelsystem) coordinates various types of volunteer activities, each of which must be assessed for suitability under the "light and suitable for children" (*leicht und für Kinder geeignet*) standard.[^kindarbschv-2-1-leicht]
 
 Information desk activities (*Info Desk*) involve providing information to attendees, answering questions, and directing visitors. These activities involve no physical hazards, no handling of heavy objects, and no situations requiring mature judgment regarding safety or conflict resolution. Such activities satisfy the suitability requirement.
 
@@ -217,19 +273,19 @@ Translation support activities involve providing language assistance to attendee
 
 Ticket control and badge checking involve verifying attendee credentials and directing traffic flow. These activities are routine and present no special hazards. They are suitable for minors.
 
-Bar service activities involve serving beverages, including alcoholic drinks. German law restricts minors' involvement with alcohol in multiple ways. Under § 9 Jugendschutzgesetz (JuSchG), persons under 16 may not be served alcoholic beverages, and persons under 18 may not be served spirits.³¹ While the JuSchG directly regulates consumption rather than service, employing children in bar service creates practical problems with supervision and alcohol handling that render such activities unsuitable. Bar activities should be classified as unsuitable for minors.
+Bar service activities involve serving beverages, including alcoholic drinks. German law restricts minors' involvement with alcohol in multiple ways. Under § 9 Jugendschutzgesetz (JuSchG), persons under 16 may not be served alcoholic beverages, and persons under 18 may not be served spirits.[^juschg-9] While the JuSchG directly regulates consumption rather than service, employing children in bar service creates practical problems with supervision and alcohol handling that render such activities unsuitable. Bar activities should be classified as unsuitable for minors.
 
-Security activities involve crowd management, access control enforcement, and potentially conflict intervention. The judgment required for de-escalation, the potential for confrontation, and the need for mature risk assessment render security activities unsuitable for children and school-age adolescents under KindArbSchV § 2 Abs. 2 Nr. 3.³²
+Security activities involve crowd management, access control enforcement, and potentially conflict intervention. The judgment required for de-escalation, the potential for confrontation, and the need for mature risk assessment render security activities unsuitable for children and school-age adolescents under KindArbSchV § 2 Abs. 2 Nr. 3.[^kindarbschv-2-2-3]
 
 Technical infrastructure activities (NOC, network operations) may involve electrical equipment, server hardware, and other technical systems. Whether such activities are suitable depends on the specific duties assigned. Passive monitoring tasks may be suitable, while activities involving electrical hazards or heavy equipment would not be.
 
-Room setup activities may involve carrying equipment, moving furniture, or climbing ladders. Activities involving regular loads exceeding 7.5 kg or occasional loads exceeding 10 kg do not meet the suitability standard under KindArbSchV § 2 Abs. 2 Nr. 1.³³ Room setup should be classified as conditionally suitable, with specific restrictions on physical tasks.
+Room setup activities may involve carrying equipment, moving furniture, or climbing ladders. Activities involving regular loads exceeding 7.5 kg or occasional loads exceeding 10 kg do not meet the suitability standard under KindArbSchV § 2 Abs. 2 Nr. 1.[^kindarbschv-2-2-1] Room setup should be classified as conditionally suitable, with specific restrictions on physical tasks.
 
 ### 2.3 Night Shift Prohibition
 
-The Engelsystem tracks night shifts with a default definition of 2:00-6:00 and applies bonus multipliers to such shifts.³⁴ Night work by children and school-age adolescents is categorically prohibited under KindArbSchV § 3 Abs. 2, which forbids employment between 18:00 and 8:00.³⁵
+The Engelsystem tracks night shifts with a default definition of 2:00-6:00 and applies bonus multipliers to such shifts.[^engelsystem-night] Night work by children and school-age adolescents is categorically prohibited under JArbSchG § 5 Abs. 3, which forbids employment between 18:00 and 8:00.[^jarbschg-5-3-night]
 
-For adolescents not subject to compulsory schooling, the prohibition is somewhat narrower: JArbSchG § 14 Abs. 1 prohibits employment outside 6:00-20:00, with limited industry-specific extensions.³⁶ Even under the most generous interpretation (entertainment industry extension to 22:00 for those over 16), the night shift hours tracked by Engelsystem (2:00-6:00) remain prohibited for all minors.
+For adolescents not subject to compulsory schooling, the prohibition is somewhat narrower: JArbSchG § 14 Abs. 1 prohibits employment outside 6:00-20:00, with limited industry-specific extensions.[^jarbschg-14-night] Even under the most generous interpretation (entertainment industry extension to 22:00 for those over 16), the night shift hours tracked by Engelsystem (2:00-6:00) remain prohibited for all minors.
 
 This analysis yields a clear rule: minors may not sign up for shifts that begin before 6:00, end after 18:00 (for children and school-age adolescents) or 20:00 (for other adolescents), or overlap with these prohibited periods.
 
@@ -239,19 +295,19 @@ This analysis yields a clear rule: minors may not sign up for shifts that begin 
 
 ### 3.1 Children Under 13 Years
 
-Children who have not yet reached 13 years of age may not participate as volunteers under any circumstance. The KindArbSchV § 2 Abs. 1 exception applies exclusively to "children over 13" (*Kinder über 13 Jahre*).³⁷ No provision of German law permits volunteer work by children under 13 at events such as CCC gatherings.
+Children who have not yet reached 13 years of age may not participate as volunteers under any circumstance. The KindArbSchV § 2 Abs. 1 exception applies exclusively to "children over 13" (*Kinder über 13 Jahre*).[^kindarbschv-2-1-age] No provision of German law permits volunteer work by children under 13 at events such as CCC gatherings.
 
 Such children may attend events with their parents and may participate in workshops or activities designed for children, but they cannot be assigned scheduled volunteer shifts through Engelsystem.
 
 ### 3.2 Children 13-14 Years
 
-Children who have reached 13 but not yet 15 years of age may participate as volunteers under the conditions specified in KindArbSchV.³⁸
+Children who have reached 13 but not yet 15 years of age may participate as volunteers under the conditions specified in KindArbSchV.[^kindarbschv-conditions]
 
 Parental consent is required for all volunteer activities. While the law does not prescribe a specific form, written consent is strongly recommended for documentation purposes and should specify the scope of permitted activities.
 
-Maximum working time is 2 hours per day.³⁹ This limit applies regardless of whether the child is volunteering at multiple types of activities or for multiple organizations on the same day.
+Maximum working time is 2 hours per day.[^jarbschg-5-3-2hrs] This limit applies regardless of whether the child is volunteering at multiple types of activities or for multiple organizations on the same day.
 
-Permitted hours are 8:00-18:00 only.⁴⁰ Shifts that begin before 8:00, end after 18:00, or span these boundaries are prohibited.
+Permitted hours are 8:00-18:00 only.[^jarbschg-5-3-hours-range] Shifts that begin before 8:00, end after 18:00, or span these boundaries are prohibited.
 
 Activity restrictions require that only "light and suitable" activities be assigned. Bar service, security duties, and heavy physical labor are prohibited.
 
@@ -259,17 +315,26 @@ Supervision by responsible adults must be provided throughout the shift. Emergen
 
 ### 3.3 Adolescents 15-17 Years Subject to Compulsory Schooling
 
-Under JArbSchG § 2 Abs. 3, adolescents who remain subject to compulsory full-time education (*Vollzeitschulpflicht*) are treated as children for purposes of protective provisions.⁴¹ The same restrictions applicable to 13-14 year-olds therefore apply to this group.
+Under JArbSchG § 2 Abs. 3, adolescents who remain subject to compulsory full-time education (*Vollzeitschulpflicht*) are treated as children for purposes of protective provisions.[^jarbschg-2-3] The same restrictions applicable to 13-14 year-olds therefore apply to this group **during school term**.
 
-Practical implementation requires determining whether a 15 or 16-year-old volunteer is still subject to Vollzeitschulpflicht. This determination depends on state education law and individual circumstances. When status is uncertain, the safer approach is to apply child restrictions.
+**Critical Exception for School Holidays**: Under JArbSchG § 5 Abs. 4, these adolescents may work under the general adolescent rules (§§ 8-31) during school holidays for up to four weeks per calendar year.[^jarbschg-5-4-holiday] This is of particular significance for the **Chaos Communication Congress**, which takes place between December 27 and 30—a school holiday period in all German states. During Congress, *vollzeitschulpflichtige Jugendliche* aged 15-17 may volunteer under expanded rules:
+
+| Restriction | School Days | School Holidays (Congress) |
+|-------------|-------------|---------------------------|
+| Maximum daily hours | 2 hours | 8 hours |
+| Permitted hours | 8:00-18:00 | 6:00-20:00 |
+| Max weekly hours | 10 hours | 40 hours |
+| Rest breaks | Not specified | 30 min after 4.5h; 60 min after 6h |
+
+Practical implementation requires determining whether a 15 or 16-year-old volunteer is still subject to Vollzeitschulpflicht. This determination depends on state education law and individual circumstances. When status is uncertain during school term, the safer approach is to apply child restrictions. However, during Congress (school holidays), these volunteers may be assigned shifts under adolescent rules regardless of Vollzeitschulpflicht status.
 
 ### 3.4 Adolescents 15-17 Years Not Subject to Compulsory Schooling
 
-Adolescents who have completed compulsory schooling obligations are governed by the general JArbSchG provisions for adolescents.⁴²
+Adolescents who have completed compulsory schooling obligations are governed by the general JArbSchG provisions for adolescents.[^jarbschg-8-14]
 
-Maximum working time is 8 hours per day and 40 hours per week.⁴³ Rest breaks of 30 minutes are required after 4.5 hours and 60 minutes after 6 hours.⁴⁴
+Maximum working time is 8 hours per day and 40 hours per week.[^jarbschg-8-hours] Rest breaks of 30 minutes are required after 4.5 hours and 60 minutes after 6 hours.[^jarbschg-11-breaks]
 
-Permitted hours are generally 6:00-20:00.⁴⁵ Extension to 22:00 may apply in entertainment contexts for adolescents over 16.
+Permitted hours are generally 6:00-20:00.[^jarbschg-14-1-hours] Extension to 22:00 may apply in entertainment contexts for adolescents over 16.
 
 Activity restrictions are less stringent than for children, but hazardous work remains prohibited. Bar service involving alcohol remains problematic due to JuSchG restrictions on minors and alcohol.
 
@@ -309,13 +374,13 @@ CCC should maintain parental consent forms, age verification records, shift reco
 
 ### 5.1 Compliance Risks
 
-Failure to comply with youth labor protection requirements exposes CCC to administrative enforcement action. JArbSchG § 58 authorizes fines (*Bußgelder*) for violations of the Act's provisions.⁴⁶ Serious or repeated violations may result in criminal liability under JArbSchG § 58 Abs. 6.⁴⁷
+Failure to comply with youth labor protection requirements exposes CCC to administrative enforcement action. JArbSchG § 58 authorizes fines (*Bußgelder*) for violations of the Act's provisions.[^jarbschg-58] Serious or repeated violations may result in criminal liability under JArbSchG § 58 Abs. 6.[^jarbschg-58-6]
 
 Individual liability may attach to persons who direct or supervise minor volunteers in violation of these rules. Shift coordinators and event organizers should be informed of applicable requirements.
 
 ### 5.2 Insurance Considerations
 
-Volunteer activities at association events are typically covered by statutory accident insurance (*gesetzliche Unfallversicherung*) through the relevant professional association (*Berufsgenossenschaft*) or public accident insurer.⁴⁸ CCC should verify that its coverage extends to minor volunteers and that any activity restrictions align with insurance requirements.
+Volunteer activities at association events are typically covered by statutory accident insurance (*gesetzliche Unfallversicherung*) through the relevant professional association (*Berufsgenossenschaft*) or public accident insurer.[^sgb-vii-2] CCC should verify that its coverage extends to minor volunteers and that any activity restrictions align with insurance requirements.
 
 ### 5.3 Mitigation Measures
 
@@ -337,111 +402,115 @@ A structured "Junior Angel" program implementing these requirements would enable
 
 ## Notes
 
-1. Gesetz zum Schutze der arbeitenden Jugend [JArbSchG] [Youth Labor Protection Act], Apr. 12, 1976, BGBl. I at 965, as amended, § 2(1) (Ger.), https://www.gesetze-im-internet.de/jarbschg/__2.html.
+[^jarbschg-2-1]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 2(1).
 
-2. Kinderarbeitsschutzverordnung [KindArbSchV] [Child Labor Protection Ordinance], Apr. 23, 1998, BGBl. I at 1508, § 2(1) Nr. 5 (Ger.), https://www.gesetze-im-internet.de/kindarbschv/__2.html.
+[^kindarbschv-2-1-5]: [KindArbSchV](https://www.gesetze-im-internet.de/kindarbschv/) § 2(1) Nr. 5.
 
-3. Ibid.
+[^kindarbschv-2-1-text]: [KindArbSchV](https://www.gesetze-im-internet.de/kindarbschv/) § 2(1).
 
-4. KindArbSchV § 2(1).
+[^kindarbschv-2-1-age]: [KindArbSchV](https://www.gesetze-im-internet.de/kindarbschv/) § 2(1) ("Kinder über 13 Jahre").
 
-5. JArbSchG § 2.
+[^jarbschg-1-1]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 1(1).
 
-6. JArbSchG § 2(1).
+[^jarbschg-1-2]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 1(2) Nr. 1 a).
 
-7. JArbSchG § 2(2).
+[^bgh-gefaelligkeit]: BGH NJW 1968, 1874; BGH NJW 1971, 1404 (establishing that a *Gefälligkeitsverhältnis* lacks *Rechtsbindungswille*).
 
-8. JArbSchG § 2(3).
+[^bghz-21-102]: BGHZ 21, 102 (107); BGHZ 88, 382; BGHZ 92, 168 (determining the nature of an arrangement based on objective appearance to third parties).
 
-9. JArbSchG § 5(1).
+[^bghz-56-210]: BGHZ 56, 210 (finding binding relationship where beneficiary clearly relies on commitment).
 
-10. JArbSchG § 5(3).
+[^jarbschg-2]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 2.
 
-11. KindArbSchV § 2(1).
+[^jarbschg-2-1-def]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 2(1) (definition of "Kind").
 
-12. Ibid.
+[^jarbschg-2-2]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 2(2) (definition of "Jugendlicher").
 
-13. Ibid.
+[^jarbschg-2-3-def]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 2(3) (vollzeitschulpflichtige Jugendliche treated as children).
 
-14. KindArbSchV § 2(2).
+[^jarbschg-5-1]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 5(1) (general prohibition of child employment).
 
-15. See generally KindArbSchV § 2 (establishing suitability as universal requirement through phrase "wenn die Beschäftigung leicht und für sie geeignet ist").
+[^jarbschg-5-3-exception]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 5(3) (exception for children over 13).
 
-16. KindArbSchV § 3.
+[^kindarbschv-2-1]: [KindArbSchV](https://www.gesetze-im-internet.de/kindarbschv/) § 2(1).
 
-17. KindArbSchV § 3(1).
+[^kindarbschv-2-1-list]: [KindArbSchV](https://www.gesetze-im-internet.de/kindarbschv/) § 2(1) Nr. 1-5 (exhaustive list of permitted activities).
 
-18. KindArbSchV § 3(2).
+[^kindarbschv-2-1-orgs]: [KindArbSchV](https://www.gesetze-im-internet.de/kindarbschv/) § 2(1) Nr. 5 (churches, religious communities, federations, associations, parties).
 
-19. KindArbSchV § 3(3).
+[^kindarbschv-2-2]: [KindArbSchV](https://www.gesetze-im-internet.de/kindarbschv/) § 2(2) (unsuitability criteria).
 
-20. JArbSchG § 2(3) (establishing that only adolescents subject to Vollzeitschulpflicht are treated as children).
+[^kindarbschv-2-1-suitable]: See generally [KindArbSchV](https://www.gesetze-im-internet.de/kindarbschv/) § 2(1) (establishing suitability as universal requirement through phrase "wenn die Beschäftigung leicht und für sie geeignet ist").
 
-21. JArbSchG § 14(1).
+[^jarbschg-5-3-time]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 5(3) (time limitations for children).
 
-22. JArbSchG § 14(2).
+[^jarbschg-5-3-hours]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 5(3) Satz 3 (2 hours maximum per day; 3 hours in agricultural family businesses).
 
-23. JArbSchG § 8.
+[^jarbschg-5-3-prohibited]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 5(3) Satz 3 (prohibited between 18:00 and 8:00, before or during school).
 
-24. JArbSchG § 11.
+[^jarbschg-5-4]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 5(4) (school holiday exception for vollzeitschulpflichtige Jugendliche).
 
-25. See Chaos Computer Club e.V. registration entry in Vereinsregister des Amtsgerichts Hamburg.
+[^jarbschg-8-31]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) §§ 8-31 (adolescent working time and protection rules).
 
-26. KindArbSchV § 2(1) Nr. 5.
+[^jarbschg-14]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 14 (Nachtruhe - night rest).
 
-27. See generally Handelsgesetzbuch [HGB] [Commercial Code], May 10, 1897, RGBl. at 219, § 1 (Ger.) (defining Kaufmann and commercial activity).
+[^jarbschg-2-3-adolescents]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 2(3) (adolescents subject to Vollzeitschulpflicht treated as children).
 
-28. See Chaos Computer Club e.V. bylaws (*Satzung*) establishing non-profit purposes.
+[^jarbschg-14-1]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 14(1) (employment only between 6:00 and 20:00).
 
-29. See commentary on "nichtgewerblich" in the context of organizational activities.
+[^jarbschg-14-2]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 14(2) (industry-specific extensions for adolescents over 16).
 
-30. KindArbSchV § 2(1) ("wenn die Beschäftigung leicht und für sie geeignet ist").
+[^jarbschg-8]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 8 (maximum 8 hours daily, 40 hours weekly).
 
-31. Jugendschutzgesetz [JuSchG] [Youth Protection Act], July 23, 2002, BGBl. I at 2730, § 9 (Ger.), https://www.gesetze-im-internet.de/juschg/__9.html.
+[^jarbschg-11]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 11 (rest break requirements).
 
-32. KindArbSchV § 2(2) Nr. 3 (unsuitable activities include those "mit Unfallgefahren verbunden ist, von denen anzunehmen ist, dass Kinder über 13 Jahre und vollzeitschulpflichtige Jugendliche sie wegen mangelnden Sicherheitsbewusstseins oder mangelnder Erfahrung nicht erkennen oder nicht abwenden können").
+[^ccc-ev-registration]: See Chaos Computer Club e.V. registration entry in Vereinsregister des Amtsgerichts Hamburg.
 
-33. KindArbSchV § 2(2) Nr. 1.
+[^kindarbschv-2-1-5-verein]: [KindArbSchV](https://www.gesetze-im-internet.de/kindarbschv/) § 2(1) Nr. 5 ("Vereine").
 
-34. See Engelsystem documentation on night shift configuration.
+[^hgb-1]: See generally [HGB](https://www.gesetze-im-internet.de/hgb/) § 1 (defining Kaufmann and commercial activity).
 
-35. KindArbSchV § 3(2).
+[^ccc-satzung]: See Chaos Computer Club e.V. bylaws (*Satzung*) establishing non-profit purposes.
 
-36. JArbSchG § 14.
+[^nichtgewerblich]: See commentary on "nichtgewerblich" in the context of organizational activities; German legal doctrine distinguishes cost-recovery from commercial profit-seeking.
 
-37. KindArbSchV § 2(1).
+[^kindarbschv-2-1-leicht]: [KindArbSchV](https://www.gesetze-im-internet.de/kindarbschv/) § 2(1) ("wenn die Beschäftigung leicht und für sie geeignet ist").
 
-38. Ibid.
+[^juschg-9]: [JuSchG](https://www.gesetze-im-internet.de/juschg/) § 9 (alcohol restrictions for minors).
 
-39. KindArbSchV § 3(1).
+[^kindarbschv-2-2-3]: [KindArbSchV](https://www.gesetze-im-internet.de/kindarbschv/) § 2(2) Nr. 3 (unsuitable activities involving accident hazards unrecognizable by minors due to lack of safety awareness or experience).
 
-40. KindArbSchV § 3(2).
+[^kindarbschv-2-2-1]: [KindArbSchV](https://www.gesetze-im-internet.de/kindarbschv/) § 2(2) Nr. 1 (load weight limits: 7.5 kg regular, 10 kg occasional; exemption for vollzeitschulpflichtige Jugendliche per Satz 2).
 
-41. JArbSchG § 2(3).
+[^engelsystem-night]: See Engelsystem documentation on night shift configuration.
 
-42. JArbSchG §§ 8-14.
+[^jarbschg-5-3-night]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 5(3) Satz 3 (prohibiting employment between 18:00 and 8:00).
 
-43. JArbSchG § 8.
+[^jarbschg-14-night]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 14 (night rest restrictions for adolescents).
 
-44. JArbSchG § 11.
+[^jarbschg-2-3]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 2(3).
 
-45. JArbSchG § 14(1).
+[^jarbschg-5-4-holiday]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 5(4) (employment of vollzeitschulpflichtige Jugendliche during school holidays for up to four weeks per calendar year; §§ 8-31 apply).
 
-46. JArbSchG § 58.
+[^kindarbschv-conditions]: [KindArbSchV](https://www.gesetze-im-internet.de/kindarbschv/) § 2(1).
 
-47. JArbSchG § 58(6).
+[^jarbschg-5-3-2hrs]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 5(3) Satz 3 (2 hours maximum per day).
 
-48. See Siebtes Buch Sozialgesetzbuch [SGB VII] [Social Code Book VII], Aug. 7, 1996, BGBl. I at 1254, § 2 Nr. 10 (Ger.) (coverage for persons engaged in voluntary service for certain organizations).
+[^jarbschg-5-3-hours-range]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 5(3) Satz 3 (permitted hours 8:00-18:00).
 
-49. JArbSchG § 1(1).
+[^jarbschg-8-14]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) §§ 8-14 (general provisions for adolescents).
 
-50. JArbSchG § 1(2) Nr. 1 a).
+[^jarbschg-8-hours]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 8 (8 hours daily, 40 hours weekly maximum).
 
-51. See BGH NJW 1968, 1874; BGH NJW 1971, 1404 (establishing that a *Gefälligkeitsverhältnis* lacks *Rechtsbindungswille*).
+[^jarbschg-11-breaks]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 11 (30 minutes after 4.5 hours; 60 minutes after 6 hours).
 
-52. BGHZ 21, 102 (107); BGHZ 88, 382; BGHZ 92, 168 (determining the nature of an arrangement based on objective appearance to third parties considering interest situation, type, reason, and purpose).
+[^jarbschg-14-1-hours]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 14(1) (6:00-20:00).
 
-53. BGHZ 56, 210 (finding binding relationship where beneficiary clearly relies on commitment).
+[^jarbschg-58]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 58 (fines for violations).
+
+[^jarbschg-58-6]: [JArbSchG](https://www.gesetze-im-internet.de/jarbschg/) § 58(6) (criminal liability for intentional violations endangering health).
+
+[^sgb-vii-2]: [SGB VII](https://www.gesetze-im-internet.de/sgb_7/) § 2 Nr. 10 (statutory accident insurance coverage for persons engaged in voluntary service for certain organizations).
 
 ---
 
@@ -463,6 +532,6 @@ Handelsgesetzbuch [HGB] [Commercial Code]. May 10, 1897. RGBl. at 219, as amende
 
 **Document Status**: Complete legal analysis
 **Subject**: German child labor law and CCC volunteer participation
-**Last Updated**: December 30, 2025
+**Last Updated**: December 31, 2025
 
 *This analysis is provided for informational purposes. CCC e.V. should consult with legal counsel for implementation of specific policies and procedures.*

@@ -8,13 +8,15 @@
 **Related Policy**: [Minor Volunteer Participation Policy](minor-volunteer-policy.md)
 **Legal Basis**: [Child Labor Law Analysis](child-labor-law-analysis.md)
 **Effective Date**: [To be determined]
-**Last Updated**: December 30, 2025
+**Last Updated**: December 31, 2025
 
 ---
 
 ## Quick Reference Card
 
 ### Age Limits at a Glance
+
+**During School Term** (most events):
 
 | Age | Can Volunteer? | Max Hours/Day | Permitted Hours | Activity Categories |
 |-----|----------------|---------------|-----------------|---------------------|
@@ -23,6 +25,18 @@
 | 15-17 (school) | YES | 2 hours | 8:00 - 18:00 | Category A only |
 | 15-17 (post-school) | YES | 8 hours | 6:00 - 20:00 | Category A and B |
 | 18+ | YES | No limit | No limit | All categories |
+
+**During School Holidays** (Congress, December 27-30):
+
+| Age | Can Volunteer? | Max Hours/Day | Permitted Hours | Activity Categories |
+|-----|----------------|---------------|-----------------|---------------------|
+| Under 13 | NO | — | — | May accompany guardian only |
+| 13-14 | YES | 2 hours | 8:00 - 18:00 | Category A only |
+| 15-17 (school) | YES | **8 hours** | **6:00 - 20:00** | **Category A and B** |
+| 15-17 (post-school) | YES | 8 hours | 6:00 - 20:00 | Category A and B |
+| 18+ | YES | No limit | No limit | All categories |
+
+**Note**: School-age teens (15-17, still in Vollzeitschulpflicht) may work under expanded adolescent rules during school holidays per JArbSchG § 5(4), for up to 4 weeks per calendar year. This applies to Congress but may NOT apply to Camp or other events during school term.
 
 ### Activity Categories Quick Reference
 
@@ -397,6 +411,18 @@ A: NO. The time limits are legal requirements, not guidelines. Exceeding them ex
 **Q: What if a minor lies about their age?**
 A: CCC has taken reasonable steps by collecting birthdates and consent forms. If a minor deliberately misrepresents their age, document the discovery and the actual age, immediately apply correct restrictions, and note the incident for records.
 
+**Q: Congress is during school holidays. Does this affect the rules for 15-17 year olds still in school?**
+A: YES. During school holidays, school-age teens (15-17, vollzeitschulpflichtig) may work under the expanded adolescent rules: 8 hours/day, 6:00-20:00, Category A and B activities. This is per JArbSchG § 5(4). However, night shifts (after 20:00) remain prohibited.
+
+**Q: A 16-year-old says they already worked 3 weeks at a summer job. Can they still volunteer at Congress?**
+A: YES, but carefully. The school holiday exception allows up to 4 weeks total per calendar year. If they worked 3 weeks elsewhere, they have 1 week remaining. Congress is 4 days (Dec 27-30), well within this limit. Ask about prior holiday employment to verify compliance.
+
+**Q: Does the school holiday exception apply to Camp (usually in August)?**
+A: It depends on the exact dates and whether the event falls during school holidays in the relevant German state(s). Camp often occurs during summer break for many states, so the exception may apply. Verify against the specific event dates and school holiday calendars.
+
+**Q: A school-age teen wants to work Category B activities at Congress. Is this allowed?**
+A: YES, during Congress (school holidays). School-age teens 15-17 may work Category A AND B activities during school holidays per JArbSchG § 5(4). This would NOT be allowed during school term events.
+
 ### 3.2 Contact Information Template
 
 Complete this section before each event:
@@ -417,14 +443,17 @@ The consent form must include:
 - [ ] Minor's full legal name
 - [ ] Minor's date of birth
 - [ ] Event name and dates
-- [ ] Acknowledgment of time restrictions (2 hrs/day for under-15; 8 hrs/day for 15-17)
-- [ ] Acknowledgment of hour restrictions (8:00-18:00 for under-15; 6:00-20:00 for 15-17)
+- [ ] Acknowledgment of time restrictions (see note below)
+- [ ] Acknowledgment of hour restrictions (see note below)
 - [ ] Permitted activity categories (A only, or A and B)
 - [ ] For ages 15-17: Declaration of Vollzeitschulpflicht status
+- [ ] **For school holiday events (Congress)**: Declaration of prior holiday employment in current year
 - [ ] Guardian name and relationship to minor
 - [ ] Guardian emergency contact (phone, email)
 - [ ] Guardian signature
 - [ ] Date of signature
+
+**Note on time restrictions**: During school term: 2 hrs/day (8:00-18:00) for under-15 and vollzeitschulpflichtig; 8 hrs/day (6:00-20:00) for 15-17 post-school. During school holidays (Congress): vollzeitschulpflichtige teens may work under 15-17 post-school rules, subject to 4-week annual limit.
 
 #### Accompanying Minor Registration Checklist
 
@@ -444,9 +473,11 @@ The consent form must include:
 
 **Key Provisions**:
 - JArbSchG § 2: Definitions (Kind = under 15; Jugendlicher = 15-17)
-- JArbSchG § 5: General prohibition of child employment
+- JArbSchG § 2(3): School-age adolescents treated as children
+- JArbSchG § 5(1): General prohibition of child employment
+- JArbSchG § 5(3): Time restrictions for children (2 hours/day, 8:00-18:00)
+- JArbSchG § 5(4): **School holiday exception** - vollzeitschulpflichtige Jugendliche may work under adolescent rules during school holidays (up to 4 weeks/year)
 - KindArbSchV § 2(1) Nr. 5: Exception for non-commercial association events
-- KindArbSchV § 3: Time restrictions (2 hours/day, 8:00-18:00)
 - JArbSchG § 8: Adolescent working hours (8 hours/day, 40 hours/week)
 - JArbSchG § 14: Adolescent permitted hours (6:00-20:00)
 
