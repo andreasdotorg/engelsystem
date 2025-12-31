@@ -56,10 +56,12 @@ These documents address the legal framework and operational requirements for all
 3. **Age-based restrictions apply**:
    - Under 13: No volunteer work permitted
    - 13-14: Max 2 hours/day, 8:00-18:00 only, Category A activities
-   - 15-17 (in school): Same as 13-14
+   - 15-17 (in school): Same as 13-14 during school term; expanded rules during school holidays (see below)
    - 15-17 (post-school): Max 8 hours/day, 6:00-20:00, Category A and B activities
 
-4. **Accompanying minors under 13** may attend with guardian volunteers under specific conditions but cannot perform any volunteer tasks.
+4. **School holiday exception (JArbSchG § 5 Abs. 4)** - During school holidays, volunteers aged 15-17 who are still in school may work under expanded adolescent rules: **8 hours/day, 6:00-20:00, Category A and B activities**. This applies to **Congress** (December 27-30), which falls during school holidays in all German states. The exception permits up to 4 weeks of holiday work per calendar year.
+
+5. **Accompanying minors under 13** may attend with guardian volunteers under specific conditions but cannot perform any volunteer tasks.
 
 ## Implementation Status
 

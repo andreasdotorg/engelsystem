@@ -167,7 +167,7 @@ While § 2 Abs. 2 explicitly addresses only activities under Nr. 3 (agricultural
 
 ### 1.4 Time Restrictions for Children
 
-**Important Correction**: The time restrictions for children are found in **JArbSchG § 5 Abs. 3**, not in KindArbSchV § 3 (which addresses administrative authority powers). The KindArbSchV specifies *which activities* are permitted but does not itself impose time restrictions—those come directly from the parent statute.
+The time restrictions for children are established in JArbSchG § 5 Abs. 3. The KindArbSchV specifies *which activities* are permitted, while the parent statute imposes the time limitations. KindArbSchV § 3 addresses administrative authority powers and does not contain time restrictions.
 
 JArbSchG § 5 Abs. 3 imposes strict time limitations on when and how long children over 13 and school-age adolescents may work.[^jarbschg-5-3-time]
 
