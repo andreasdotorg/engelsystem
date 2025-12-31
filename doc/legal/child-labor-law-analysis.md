@@ -22,6 +22,7 @@
 |--------------|------------|--------------|
 | JArbSchG | Gesetz zum Schutze der arbeitenden Jugend (Jugendarbeitsschutzgesetz) | Apr. 12, 1976, BGBl. I at 965 |
 | KindArbSchV | Verordnung über den Kinderarbeitsschutz (Kinderarbeitsschutzverordnung) | Apr. 23, 1998, BGBl. I at 1508 |
+| AO | Abgabenordnung (Fiscal Code) | Mar. 16, 1976, BGBl. I at 613 |
 
 ### Ready-to-Use Citations
 
@@ -263,7 +264,9 @@ The question of whether CCC events constitute "non-commercial" (*nichtgewerblich
 
 The fact that CCC events charge entrance fees does not convert them into commercial activities, as these fees serve to cover costs rather than generate profit. German legal doctrine distinguishes between cost-recovery fee structures and commercial profit-seeking operations.[^nichtgewerblich] The Chaos Communication Congress and similar events fall within the former category.
 
-Accordingly, the KindArbSchV § 2 Abs. 1 Nr. 5 exception applies to CCC events conducted by CCC Veranstaltungs GmbH as the operational subsidiary of CCC e.V. Children over 13 and school-age adolescents may engage in activities at these events, subject to the limitations discussed below. Given the corporate structure, organizations implementing this policy should ensure that the relationship between the GmbH and the Verein remains clearly documented and that the events continue to serve the association's charitable purposes.
+This interpretation finds analogous support in German tax law. AO § 57 Abs. 1 Satz 2 establishes the *Hilfspersonen* doctrine, under which a non-profit organization may pursue its charitable purposes through auxiliary entities (*Hilfspersonen*) when, according to the circumstances—particularly the legal and factual relationships between the organization and the auxiliary—the auxiliary's actions are to be regarded as the organization's own actions.[^ao-57-analogy] While this provision governs tax-exempt status rather than youth labor protection, it demonstrates that German law recognizes the principle of attributing subsidiary conduct to the parent non-profit under appropriate circumstances. CCC Veranstaltungs GmbH, as a wholly-owned subsidiary conducting events in furtherance of CCC e.V.'s charitable purposes, exhibits precisely the characteristics that support such attribution.
+
+Accordingly, the KindArbSchV § 2 Abs. 1 Nr. 5 exception applies to CCC events conducted by CCC Veranstaltungs GmbH as the operational subsidiary of CCC e.V. While no published authority directly addresses this question under KindArbSchV, the analogous principle in tax law supports attributing the subsidiary's events to the parent association. Children over 13 and school-age adolescents may engage in activities at these events, subject to the limitations discussed below. Given the corporate structure, organizations implementing this policy should ensure that the relationship between the GmbH and the Verein remains clearly documented and that the events continue to serve the association's charitable purposes.
 
 ### 2.2 Suitability of Typical Angel Activities
 
@@ -476,7 +479,9 @@ A structured "Junior Angel" program implementing these requirements would enable
 
 [^ccc-satzung]: See Chaos Computer Club e.V. bylaws (*Satzung*) establishing non-profit purposes.
 
-[^nichtgewerblich]: See commentary on "nichtgewerblich" in the context of organizational activities; German legal doctrine distinguishes cost-recovery from commercial profit-seeking.
+[^nichtgewerblich]: See AO § 65 (defining *Zweckbetrieb*—tax-privileged purpose operations) and AO § 64 (distinguishing tax-privileged from commercial activities). German tax law treats activities serving charitable purposes as non-commercial even when fees are charged for cost recovery, providing authoritative guidance on the *nichtgewerblich* distinction.
+
+[^ao-57-analogy]: [AO](https://www.gesetze-im-internet.de/ao_1977/) § 57(1) Satz 2 (*Hilfspersonen* doctrine). The provision states: "Das kann auch durch Hilfspersonen geschehen, wenn nach den Umständen des Falls, insbesondere nach den rechtlichen und tatsächlichen Beziehungen, die zwischen der Körperschaft und der Hilfsperson bestehen, das Wirken der Hilfsperson wie eigenes Wirken der Körperschaft anzusehen ist." While this governs tax-exempt status, the principle of attributing subsidiary conduct to the parent non-profit applies analogously to the organizational scope of KindArbSchV § 2(1) Nr. 5.
 
 [^kindarbschv-2-1-leicht]: [KindArbSchV](https://www.gesetze-im-internet.de/kindarbschv/) § 2(1) ("wenn die Beschäftigung leicht und für sie geeignet ist").
 
@@ -531,6 +536,8 @@ Jugendschutzgesetz [JuSchG] [Youth Protection Act]. July 23, 2002. BGBl. I at 27
 Siebtes Buch Sozialgesetzbuch [SGB VII] [Social Code Book VII]. Aug. 7, 1996. BGBl. I at 1254, as amended (Ger.). https://www.gesetze-im-internet.de/sgb_7/.
 
 Handelsgesetzbuch [HGB] [Commercial Code]. May 10, 1897. RGBl. at 219, as amended (Ger.). https://www.gesetze-im-internet.de/hgb/.
+
+Abgabenordnung [AO] [Fiscal Code]. Mar. 16, 1976. BGBl. I at 613, as amended (Ger.). https://www.gesetze-im-internet.de/ao_1977/.
 
 ---
 
