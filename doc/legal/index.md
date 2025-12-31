@@ -51,7 +51,7 @@ These documents address the legal framework and operational requirements for all
 
 1. **JArbSchG applies to organized volunteer work** - Engelsystem-coordinated shifts constitute "Beschäftigung" under § 1 Abs. 1 Nr. 3 and do not qualify for the courtesy assistance exception.
 
-2. **KindArbSchV § 2 Nr. 5 permits minor participation** - CCC e.V. as a registered association ("Verein") conducting non-commercial events qualifies for the exception allowing children over 13 to volunteer.
+2. **KindArbSchV § 2 Nr. 5 permits minor participation** - CCC e.V. is a registered association ("Verein"). Congress is operationally conducted by CCC Veranstaltungs GmbH, a wholly-owned subsidiary; events conducted by the GmbH in furtherance of the Verein's purposes qualify under the exception.
 
 3. **Age-based restrictions apply**:
    - Under 13: No volunteer work permitted

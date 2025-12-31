@@ -482,7 +482,7 @@ The consent form must include:
 - JArbSchG § 14: Adolescent permitted hours (6:00-20:00)
 
 **CCC's Legal Basis**:
-CCC e.V. qualifies as a "Verein" under KindArbSchV § 2(1) Nr. 5, and Congress/Camp events qualify as "nichtgewerbliche Veranstaltungen." This permits children over 13 to volunteer if activities are "light and suitable for children."
+CCC e.V. qualifies as a "Verein" under KindArbSchV § 2(1) Nr. 5. Congress is operationally conducted by CCC Veranstaltungs GmbH, a wholly-owned subsidiary of CCC e.V.; events conducted by the GmbH in furtherance of the Verein's charitable purposes qualify as "Veranstaltungen des Vereins." Congress/Camp events qualify as "nichtgewerbliche Veranstaltungen," permitting children over 13 to volunteer if activities are "light and suitable for children."
 
 ---
 
