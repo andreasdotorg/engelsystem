@@ -47,6 +47,7 @@ return [
         // Basic initialization
         \Engelsystem\Middleware\SendResponseHandler::class,
         \Engelsystem\Middleware\ExceptionHandler::class,
+        \Engelsystem\Middleware\RateLimitMiddleware::class,
 
         // Changes of request/response parameters
         \Engelsystem\Middleware\SetLocale::class,
