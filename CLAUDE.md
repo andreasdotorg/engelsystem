@@ -8,8 +8,8 @@ Progress is tracked in `doc/modernization-plan.md`. Update the Progress Tracking
 
 | ID | Package | Status |
 |----|---------|--------|
-| WP-01 | Enable HSTS Header | Not Started |
-| WP-02 | Rate Limiting Middleware | Not Started |
+| WP-01 | Enable HSTS Header | Completed |
+| WP-02 | Rate Limiting Middleware | In Review |
 | WP-03 | Deprecate API Key Query Param | Not Started |
 | WP-04 | Audit \|raw Twig Filters | Not Started |
 | WP-05 | Toast Notification System | Not Started |
@@ -23,10 +23,12 @@ Progress is tracked in `doc/modernization-plan.md`. Update the Progress Tracking
 | WP-13 | CSP Nonce Implementation | Not Started |
 | WP-14 | TypeScript Migration Setup | Not Started |
 | WP-15 | Legacy Page: user_shifts | Not Started |
+| WP-16 | Test Infrastructure: Database Port | Not Started |
+| WP-17 | Test Infrastructure: Pin Timezone | Not Started |
 
-### Next Priority Items (P0)
-1. **WP-01**: Enable HSTS Header (1h) - Uncomment in `config/config.default.php`
-2. **WP-02**: Rate Limiting Middleware (3-4h) - Create middleware + migration
+### Next Priority Items (P1)
+1. **WP-16**: Database Port Config (1h) - Add `database.port` to config_options
+2. **WP-17**: Pin Timezone in Tests (0.5h) - Add UTC timezone to phpunit.xml
 
 ## Key Documentation
 
