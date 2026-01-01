@@ -244,6 +244,18 @@ return [
         //'Expect-CT' => 'max-age=7776000,enforce,report-uri="[uri]"',
     ],
 
+    // Rate limiting configuration (requires APCu extension)
+    'rate_limits'             => [
+        'enabled' => true,
+        'endpoints' => [
+            // Pattern => ['limit' => max requests, 'window' => seconds]
+            '/login' => ['limit' => 5, 'window' => 300],           // 5 per 5 minutes
+            '/password/reset' => ['limit' => 3, 'window' => 900],  // 3 per 15 minutes
+            '/api/' => ['limit' => 100, 'window' => 60],           // 100 per minute
+            '/register' => ['limit' => 5, 'window' => 3600],       // 5 per hour
+        ],
+    ],
+
     // A list of credits
     'credits'                 => [
         'Contribution' => 'Please visit [engelsystem/engelsystem](https://github.com/engelsystem/engelsystem) if '
