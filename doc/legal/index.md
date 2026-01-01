@@ -70,9 +70,26 @@ These documents address the legal framework and operational requirements for all
 | Legal analysis | Complete |
 | Policy document | Complete |
 | Operational guideline | Complete |
+| **Implementation plan** | **Complete** |
 | Parental consent form | Template needed |
 | Engelsystem integration | Not started |
 | Heaven training materials | Not started |
+
+### Implementation Plan
+
+The detailed technical implementation plan is documented in [Minor Volunteer Implementation Plan](minor-volunteer-implementation-plan.md). It includes:
+
+- Data model changes (minor categories, guardian relationships, supervisor status)
+- 10 implementation phases with file listings
+- 7 user stories with detailed acceptance criteria
+- Roles and permissions matrix
+
+**Key design decisions:**
+1. Category-based restrictions (Datensparsamkeit - no DOB/school status stored)
+2. Hard enforcement for minors/guardians (only Heaven can override)
+3. Paper-based consent with arrival validation
+4. Linked account model for guardian-minor relationships
+5. Supervisor pre-registration system
 
 ---
 
