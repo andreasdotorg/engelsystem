@@ -15,6 +15,7 @@ Engelsystem is a shift planning system designed for chaos events, managing volun
 - [Architecture Review](architecture-review.md) - Architecture & UI/UX assessment with improvement recommendations
 - [Security Review](security-review.md) - Security assessment with vulnerability analysis and recommendations
 - [Modernization Plan](modernization-plan.md) - Work packages for addressing identified issues
+- [Legal Documentation](legal/index.md) - Legal analyses and policies for event operations
 
 ## About This Documentation
 

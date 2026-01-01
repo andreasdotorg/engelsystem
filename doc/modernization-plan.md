@@ -12,7 +12,7 @@ Each package is scoped to 2-4 hours of implementation time.
 | ID | Package | Priority | Status | Completed |
 |----|---------|----------|--------|-----------|
 | WP-01 | Enable HSTS Header | P0 | Completed | 2025-12-30 |
-| WP-02 | Rate Limiting Middleware | P0 | Not Started | |
+| WP-02 | Rate Limiting Middleware | P0 | In Review | |
 | WP-03 | Deprecate API Key Query Param | P1 | Not Started | |
 | WP-04 | Audit |raw Twig Filters | P1 | Not Started | |
 | WP-05 | Toast Notification System | P1 | Not Started | |
@@ -26,6 +26,8 @@ Each package is scoped to 2-4 hours of implementation time.
 | WP-13 | CSP Nonce Implementation | P2 | Not Started | |
 | WP-14 | TypeScript Migration Setup | P2 | Not Started | |
 | WP-15 | Legacy Page: user_shifts | P3 | Not Started | |
+| WP-16 | Test Infrastructure: Database Port | P1 | Not Started | |
+| WP-17 | Test Infrastructure: Pin Timezone | P1 | Not Started | |
 
 ---
 
@@ -48,6 +50,8 @@ Each package is scoped to 2-4 hours of implementation time.
 | WP-13 | CSP Nonce Implementation | P2 | 3-4h | Security |
 | WP-14 | TypeScript Migration Setup | P2 | 3h | Frontend |
 | WP-15 | Legacy Page: user_shifts | P3 | 4h | Architecture |
+| WP-16 | Test Infrastructure: Database Port | P1 | 1h | Testing |
+| WP-17 | Test Infrastructure: Pin Timezone | P1 | 0.5h | Testing |
 
 ---
 
@@ -403,6 +407,66 @@ window.showToast('Error loading data', 'error');
 6. Keep legacy file as fallback (feature flag)
 
 **Note:** Template for migrating other legacy pages.
+
+---
+
+## Phase 6: Test Infrastructure (P1)
+
+### WP-16: Test Infrastructure: Database Port Configuration
+**Priority:** P1 | **Effort:** 1 hour | **Risk:** Low
+
+**Problem:** Feature tests cannot connect to database when using non-standard ports (e.g., minikube NodePort 31402). The `config_options` in `config/app.php` defines `database.host`, `database.database`, `database.username`, `database.password` but NOT `database.port`. This means `MYSQL_PORT` env var is ignored.
+
+**Files to modify:**
+- `config/app.php` (add database.port config option)
+
+**Tasks:**
+1. Add `database.port` to config_options with env var `MYSQL_PORT`
+2. Set default to 3306
+3. Test with minikube setup (port 31402)
+4. Document in README
+
+**Implementation:**
+```php
+'database.port' => [
+    'type' => 'number',
+    'default' => 3306,
+    'env' => 'MYSQL_PORT',
+    'write_back' => true,
+    'min' => 1,
+    'max' => 65535,
+],
+```
+
+---
+
+### WP-17: Test Infrastructure: Pin Timezone to UTC
+**Priority:** P1 | **Effort:** 0.5 hours | **Risk:** Low
+
+**Problem:** 9 unit tests fail when run in non-UTC timezones (e.g., CET). Tests in `CarbonTest`, `CarbonDayTest`, `ConfigControllerTest`, and `ScheduleControllerTest` create Carbon objects without explicit timezone, causing timestamp mismatches.
+
+**Root cause:** `Carbon::createFromFormat()` uses system timezone when none specified. Tests expect UTC behavior but get local timezone (1-2 hour offset).
+
+**Files to modify:**
+- `phpunit.xml`
+
+**Tasks:**
+1. Add timezone pin to phpunit.xml
+2. Verify all 9 failing tests pass
+3. Document in contributing guide
+
+**Implementation:**
+```xml
+<php>
+    <ini name="date.timezone" value="UTC"/>
+</php>
+```
+
+**Alternative (if more control needed):**
+Add to `tests/bootstrap.php`:
+```php
+date_default_timezone_set('UTC');
+```
 
 ---
 
