@@ -30,6 +30,34 @@ Progress is tracked in `doc/modernization-plan.md`. Update the Progress Tracking
 1. **WP-16**: Database Port Config (1h) - Add `database.port` to config_options
 2. **WP-17**: Pin Timezone in Tests (0.5h) - Add UTC timezone to phpunit.xml
 
+## Quality Gates (Project-Specific Override)
+
+**This project has stricter requirements than the default workflow prompts.**
+
+Before any PR can be created or merged, ALL of the following must pass:
+
+| Gate | Requirement | Command |
+|------|-------------|---------|
+| **Test Coverage** | **100% line & method coverage** for new/modified code | `nix run .#test -- --coverage-text` |
+| **All Tests Pass** | 100% of tests must pass (no failures) | `nix run .#test` |
+| **PHPStan** | No errors at level 1 | `composer phpstan` |
+| **PHPCS** | No code style violations (PSR-12) | `composer run phpcs` |
+| **JS Linting** | No ESLint/Prettier errors | `yarn lint` |
+
+### Coverage Verification
+```bash
+# Check coverage for specific class (must show 100% in Methods and Lines)
+nix develop -c vendor/bin/phpunit --filter ClassName --coverage-text
+
+# Full coverage report
+nix run .#test -- --coverage-html coverage-html
+```
+
+### Important Notes
+- Every test class must have `@covers` annotation pointing to tested class
+- Every test method should have `@covers` annotation for specific method tested
+- See Serena memory `coverage-testing-guide` for detailed instructions
+
 ## Key Documentation
 
 - `doc/index.md` - Documentation index
