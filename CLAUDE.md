@@ -80,12 +80,45 @@ es-migrate           # Run migrations
 es-serve             # Start dev server
 ```
 
+## Minor Volunteer Support Feature (Phases 1-10)
+
+**Branch**: `feature/minor-volunteer-support`
+**Status**: Implementation complete, E2E testing in progress
+
+### Bug Tracking
+
+See Serena memory `minor-volunteer-bugs-found.md` for full details.
+
+| Bug ID | Description | Status |
+|--------|-------------|--------|
+| BUG-001 | Missing user_guardian privilege migration | Fixed |
+| BUG-002 | Extra argument in signUpMinorForShift | Fixed |
+| BUG-003 | RateLimitMiddleware getUri()->getPath() | Workaround (WP-02) |
+| BUG-004 | Guardian translation keys not resolved | Open |
+| BUG-005 | shift_entries.created_at column not found | Fixed |
+| BUG-006 | Date formatting issue in consent form | Open |
+| BUG-007 | Missing consent approval UI in admin | Open |
+
+### E2E Testing Progress
+
+| User Story | Status |
+|------------|--------|
+| US-01: Guardian Registration Flow | Pass (5/5) |
+| US-07: Heaven Minor Overview | Pass (6/6) |
+| US-04: Shift Signup Validation | Blocked (needs test data) |
+| US-05: Supervisor Pre-Registration | Blocked (needs test data) |
+| US-06: Non-Counting Participation | Blocked (needs test data) |
+
 ## Pending ToDos
 
 - [ ] Complete P0 work packages (HSTS, Rate Limiting)
 - [ ] Review all |raw Twig filter usages for XSS risks
 - [ ] Add accessibility testing to CI pipeline
+- [ ] Fix BUG-004: Guardian translation keys
+- [ ] Fix BUG-006: Date formatting in consent form
+- [ ] Implement BUG-007: Consent approval UI in admin
 
 ## Session Log
 
+- 2026-01-05: Minor volunteer support E2E testing session - US-01 and US-07 pass, 4 open bugs found
 - 2025-12-30: Created architecture review, security review, and modernization plan
