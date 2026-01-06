@@ -87,7 +87,7 @@ es-serve             # Start dev server
 ## Minor Volunteer Support Feature (Phases 1-10)
 
 **Branch**: `feature/minor-volunteer-support`
-**Status**: Implementation complete, E2E testing in progress
+**Status**: Implementation complete, E2E testing complete ✅
 
 ### Bug Tracking
 
@@ -107,13 +107,28 @@ See Serena memory `minor-volunteer-bugs-found.md` for full details.
 
 ### E2E Testing Progress
 
-| User Story | Status |
-|------------|--------|
-| US-01: Guardian Registration Flow | Pass (5/5) |
-| US-07: Heaven Minor Overview | Pass (6/6) |
-| US-04: Shift Signup Validation | Pass |
-| US-05: Supervisor Pre-Registration | Pass |
-| US-06: Non-Counting Participation | Pass |
+All 7 User Stories pass across all browsers:
+
+| User Story | Tests | Status |
+|------------|-------|--------|
+| US-01: Guardian Registration Flow | 8 | ✅ Pass |
+| US-02: Minor Self-Registration | 7 | ✅ Pass |
+| US-03: Shift Type Classification | 6 | ✅ Pass |
+| US-04: Shift Signup Validation | 10 | ✅ Pass |
+| US-05: Supervisor Pre-Registration | 8 | ✅ Pass |
+| US-06: Non-Counting Participation | 8 | ✅ Pass |
+| US-07: Heaven Minor Overview | 9 | ✅ Pass |
+| **Total** | **56** | ✅ All Pass |
+
+Cross-browser testing:
+| Browser | Tests | Status |
+|---------|-------|--------|
+| Chromium Desktop | 56 | ✅ Pass |
+| Firefox Desktop | 56 | ✅ Pass |
+| WebKit Desktop | 56 | ✅ Pass |
+| Mobile Chrome | 56 | ✅ Pass |
+| Mobile Safari | 56 | ✅ Pass |
+| **Total** | **280** | ✅ All Pass |
 
 ## Pending ToDos
 
@@ -124,6 +139,7 @@ See Serena memory `minor-volunteer-bugs-found.md` for full details.
 
 ## Session Log
 
+- 2026-01-06: E2E testing complete - all 56 tests passing across 5 browsers (280 total). Removed irrelevant shico shift calendar test. Updated playwright config for headless mode.
 - 2026-01-06: Created architecture and security review documents for minor volunteer support feature.
 - 2026-01-06: Fixed BUG-004 (translations), BUG-006 (date format), BUG-007 (consent UI), BUG-008 (MINOR_RESTRICTED feedback). 9/10 bugs fixed, only BUG-003 remains (workaround applied).
 - 2026-01-06: Completed E2E testing for US-04, US-05, US-06. Fixed BUG-009 (isMinor() architectural issue). All user stories now pass.
