@@ -464,4 +464,85 @@ class RateLimitMiddlewareTest extends TestCase
         $result3 = $middleware->process($this->request, $this->handler);
         $this->assertEquals(429, $result3->getStatusCode());
     }
+
+    /**
+     * @covers \Engelsystem\Middleware\RateLimitMiddleware::getRequestPath
+     */
+    public function testGetRequestPathWithPsr7UriInterface(): void
+    {
+        $middleware = new TestableRateLimitMiddleware($this->config, $this->log);
+
+        // Create a mock request with PSR-7 UriInterface
+        $uri = $this->createMock(UriInterface::class);
+        $uri->method('getPath')->willReturn('/api/users');
+
+        $request = $this->createMock(ServerRequestInterface::class);
+        $request->method('getUri')->willReturn($uri);
+
+        $path = $middleware->testGetRequestPath($request);
+        $this->assertEquals('/api/users', $path);
+    }
+
+    /**
+     * @covers \Engelsystem\Middleware\RateLimitMiddleware::getRequestPath
+     */
+    public function testGetRequestPathWithStringUri(): void
+    {
+        $middleware = new TestableRateLimitMiddleware($this->config, $this->log);
+
+        // Create a mock request that returns a string from getUri() (Symfony-style)
+        $request = $this->createMock(ServerRequestInterface::class);
+        $request->method('getUri')->willReturn('http://localhost/login?redirect=/');
+
+        $path = $middleware->testGetRequestPath($request);
+        $this->assertEquals('/login', $path);
+    }
+
+    /**
+     * @covers \Engelsystem\Middleware\RateLimitMiddleware::getRequestPath
+     */
+    public function testGetRequestPathWithStringUriNoPath(): void
+    {
+        $middleware = new TestableRateLimitMiddleware($this->config, $this->log);
+
+        // Create a mock request that returns a string without path
+        $request = $this->createMock(ServerRequestInterface::class);
+        $request->method('getUri')->willReturn('http://localhost');
+
+        $path = $middleware->testGetRequestPath($request);
+        $this->assertEquals('/', $path);
+    }
+
+    /**
+     * @covers \Engelsystem\Middleware\RateLimitMiddleware::getRequestPath
+     */
+    public function testGetRequestPathFallbackToRequestTarget(): void
+    {
+        $middleware = new TestableRateLimitMiddleware($this->config, $this->log);
+
+        // Create a mock request that returns something unexpected from getUri()
+        // but has a valid request target
+        $request = $this->createMock(ServerRequestInterface::class);
+        $request->method('getUri')->willReturn(123); // Invalid type
+        $request->method('getRequestTarget')->willReturn('/shifts?filter=today');
+
+        $path = $middleware->testGetRequestPath($request);
+        $this->assertEquals('/shifts', $path);
+    }
+
+    /**
+     * @covers \Engelsystem\Middleware\RateLimitMiddleware::getRequestPath
+     */
+    public function testGetRequestPathFallbackDefault(): void
+    {
+        $middleware = new TestableRateLimitMiddleware($this->config, $this->log);
+
+        // Create a mock request with invalid URI and non-path request target
+        $request = $this->createMock(ServerRequestInterface::class);
+        $request->method('getUri')->willReturn(null);
+        $request->method('getRequestTarget')->willReturn('*'); // Not a path
+
+        $path = $middleware->testGetRequestPath($request);
+        $this->assertEquals('/', $path);
+    }
 }

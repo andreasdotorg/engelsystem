@@ -60,4 +60,12 @@ class TestableRateLimitMiddleware extends RateLimitMiddleware
     {
         return $this->pathMatchesPattern($path, $pattern);
     }
+
+    /**
+     * Expose protected method for testing
+     */
+    public function testGetRequestPath(\Psr\Http\Message\ServerRequestInterface $request): string
+    {
+        return $this->getRequestPath($request);
+    }
 }
