@@ -98,6 +98,7 @@ See Serena memory `minor-volunteer-bugs-found.md` for full details.
 | BUG-005 | shift_entries.created_at column not found | Fixed |
 | BUG-006 | Date formatting issue in consent form | Open |
 | BUG-007 | Missing consent approval UI in admin | Open |
+| BUG-009 | User::isMinor() returns true for adults with MinorCategory | Fixed |
 
 ### E2E Testing Progress
 
@@ -105,9 +106,9 @@ See Serena memory `minor-volunteer-bugs-found.md` for full details.
 |------------|--------|
 | US-01: Guardian Registration Flow | Pass (5/5) |
 | US-07: Heaven Minor Overview | Pass (6/6) |
-| US-04: Shift Signup Validation | Blocked (needs test data) |
-| US-05: Supervisor Pre-Registration | Blocked (needs test data) |
-| US-06: Non-Counting Participation | Blocked (needs test data) |
+| US-04: Shift Signup Validation | Pass |
+| US-05: Supervisor Pre-Registration | Pass |
+| US-06: Non-Counting Participation | Pass |
 
 ## Pending ToDos
 
@@ -120,5 +121,6 @@ See Serena memory `minor-volunteer-bugs-found.md` for full details.
 
 ## Session Log
 
+- 2026-01-06: Completed E2E testing for US-04, US-05, US-06. Fixed BUG-009 (isMinor() architectural issue). All user stories now pass.
 - 2026-01-05: Minor volunteer support E2E testing session - US-01 and US-07 pass, 4 open bugs found
 - 2025-12-30: Created architecture review, security review, and modernization plan
