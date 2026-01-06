@@ -451,9 +451,9 @@ class TestDataSeeder
             Settings::create(['user_id' => $user->id, 'language' => 'en_US', 'theme' => 1]);
             State::create([
                 'user_id' => $user->id,
-                'arrived' => true,
+                'arrival_date' => $this->today,
                 'active' => true,
-                'got_shirt' => false,
+                'got_goodie' => false,
                 'force_active' => false,
             ]);
 
