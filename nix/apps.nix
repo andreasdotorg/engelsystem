@@ -353,6 +353,22 @@ let
     echo ""
   '';
 
+  # Test data seeder script
+  seedTestData = pkgs.writeShellScriptBin "engelsystem-seed-test-data" ''
+    set -euo pipefail
+
+    DIR="''${ENGELSYSTEM_DIR:-$(pwd)}"
+
+    if [ ! -f "$DIR/bin/seed-test-data" ]; then
+      echo "Error: bin/seed-test-data not found. Run from engelsystem project root."
+      exit 1
+    fi
+
+    ${dbEnvSetup}
+
+    exec ${lib.php}/bin/php "$DIR/bin/seed-test-data" "$@"
+  '';
+
   # Lint runner
   lintRunner = pkgs.writeShellScriptBin "engelsystem-lint" ''
     set -euo pipefail
@@ -412,4 +428,7 @@ in
 
   # Dev setup (one-command development environment)
   setup = mkApp devSetup;
+
+  # Test data seeder
+  seed-test-data = mkApp seedTestData;
 }
