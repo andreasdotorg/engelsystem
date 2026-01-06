@@ -94,10 +94,11 @@ See Serena memory `minor-volunteer-bugs-found.md` for full details.
 | BUG-001 | Missing user_guardian privilege migration | Fixed |
 | BUG-002 | Extra argument in signUpMinorForShift | Fixed |
 | BUG-003 | RateLimitMiddleware getUri()->getPath() | Workaround (WP-02) |
-| BUG-004 | Guardian translation keys not resolved | Open |
+| BUG-004 | Guardian translation keys not resolved | Fixed |
 | BUG-005 | shift_entries.created_at column not found | Fixed |
-| BUG-006 | Date formatting issue in consent form | Open |
-| BUG-007 | Missing consent approval UI in admin | Open |
+| BUG-006 | Date formatting issue in consent form | Fixed |
+| BUG-007 | Missing consent approval UI in admin | Fixed |
+| BUG-008 | User feedback for MINOR_RESTRICTED state | Fixed |
 | BUG-009 | User::isMinor() returns true for adults with MinorCategory | Fixed |
 
 ### E2E Testing Progress
@@ -115,12 +116,11 @@ See Serena memory `minor-volunteer-bugs-found.md` for full details.
 - [ ] Complete P0 work packages (HSTS, Rate Limiting)
 - [ ] Review all |raw Twig filter usages for XSS risks
 - [ ] Add accessibility testing to CI pipeline
-- [ ] Fix BUG-004: Guardian translation keys
-- [ ] Fix BUG-006: Date formatting in consent form
-- [ ] Implement BUG-007: Consent approval UI in admin
+- [ ] Fix BUG-003: RateLimitMiddleware (low priority, workaround applied)
 
 ## Session Log
 
+- 2026-01-06: Fixed BUG-004 (translations), BUG-006 (date format), BUG-007 (consent UI), BUG-008 (MINOR_RESTRICTED feedback). 9/10 bugs fixed, only BUG-003 remains (workaround applied).
 - 2026-01-06: Completed E2E testing for US-04, US-05, US-06. Fixed BUG-009 (isMinor() architectural issue). All user stories now pass.
 - 2026-01-05: Minor volunteer support E2E testing session - US-01 and US-07 pass, 4 open bugs found
 - 2025-12-30: Created architecture review, security review, and modernization plan
