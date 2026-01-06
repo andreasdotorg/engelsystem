@@ -65,6 +65,10 @@ nix run .#test -- --coverage-html coverage-html
 - `doc/security-review.md` - Security assessment
 - `doc/modernization-plan.md` - Work packages with detailed tasks
 
+### Minor Volunteer Support Feature Documentation
+- `doc/minor-volunteer-architecture-review.md` - Architecture review for minor support feature
+- `doc/minor-volunteer-security-review.md` - Security review for minor support feature
+
 ## Development Notes
 
 ### Branches
@@ -120,6 +124,7 @@ See Serena memory `minor-volunteer-bugs-found.md` for full details.
 
 ## Session Log
 
+- 2026-01-06: Created architecture and security review documents for minor volunteer support feature.
 - 2026-01-06: Fixed BUG-004 (translations), BUG-006 (date format), BUG-007 (consent UI), BUG-008 (MINOR_RESTRICTED feedback). 9/10 bugs fixed, only BUG-003 remains (workaround applied).
 - 2026-01-06: Completed E2E testing for US-04, US-05, US-06. Fixed BUG-009 (isMinor() architectural issue). All user stories now pass.
 - 2026-01-05: Minor volunteer support E2E testing session - US-01 and US-07 pass, 4 open bugs found
