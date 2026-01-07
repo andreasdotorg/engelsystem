@@ -34,7 +34,7 @@ class RateLimitMiddleware implements MiddlewareInterface
             return $handler->handle($request);
         }
 
-        $path = $request->getUri()->getPath();
+        $path = $this->getRequestPath($request);
         $endpoint = $this->matchEndpoint($path);
 
         if ($endpoint === null) {
@@ -110,6 +110,34 @@ class RateLimitMiddleware implements MiddlewareInterface
         }
 
         return $ip === $range;
+    }
+
+    /**
+     * Extract the request path, handling both PSR-7 UriInterface and Symfony string-based URI.
+     */
+    protected function getRequestPath(ServerRequestInterface $request): string
+    {
+        $uri = $request->getUri();
+
+        // PSR-7 UriInterface returns an object with getPath()
+        if (is_object($uri) && method_exists($uri, 'getPath')) {
+            return $uri->getPath();
+        }
+
+        // Symfony Request::getUri() returns a string - parse the path from it
+        if (is_string($uri)) {
+            return parse_url($uri, PHP_URL_PATH) ?? '/';
+        }
+
+        // Fallback: try to get path from request target
+        $target = $request->getRequestTarget();
+        if (str_starts_with($target, '/')) {
+            // Remove query string if present
+            $pos = strpos($target, '?');
+            return $pos !== false ? substr($target, 0, $pos) : $target;
+        }
+
+        return '/';
     }
 
     /**

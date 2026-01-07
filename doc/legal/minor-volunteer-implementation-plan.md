@@ -78,17 +78,27 @@ Tracks who is willing to supervise minors:
 - `supervision_training_completed` BOOLEAN default false
 - `created_at`, `updated_at`
 
-#### 5. `angel_types` (modify)
+#### 5. `shift_types` (modify)
 Add:
-- `work_category` ENUM('A', 'B', 'C') default 'C'
+- `work_category` ENUM('A', 'B', 'C') default 'A'
   - 'A' = Suitable for all minors 13+ (light, no hazards)
   - 'B' = Suitable for teen angels only (moderate responsibility)
   - 'C' = Adults only (hazards, alcohol, security, etc.)
+- `allows_accompanying_children` BOOLEAN default false
+  - Whether parents can bring non-working children to shifts of this type
+
+**Design Rationale**: Work category is attached to ShiftType (not AngelType) because the same skill can have different intensity depending on context. For example, "Security" work at a quiet backstage area is different from "Security" at a busy main entrance. The activity type (ShiftType) determines the base intensity, with per-shift overrides available for exceptions.
 
 #### 6. `shifts` (modify)
 Add:
 - `requires_supervisor_for_minors` BOOLEAN default true
 - `minor_supervision_notes` TEXT nullable
+- `work_category_override` ENUM('A', 'B', 'C') nullable
+  - Overrides the ShiftType's work category for this specific shift
+  - NULL = inherit from ShiftType
+- `allows_accompanying_children_override` BOOLEAN nullable
+  - Overrides the ShiftType's setting for this specific shift
+  - NULL = inherit from ShiftType
 
 #### 7. `shift_entries` (modify)
 Add:
@@ -105,14 +115,14 @@ Add:
 - `db/migrations/YYYY_MM_DD_000001_add_minor_category_to_users.php`
 - `db/migrations/YYYY_MM_DD_000002_create_user_guardian_table.php`
 - `db/migrations/YYYY_MM_DD_000003_create_user_supervisor_status_table.php`
-- `db/migrations/YYYY_MM_DD_000004_add_work_category_to_angel_types.php`
+- `db/migrations/YYYY_MM_DD_000004_add_minor_fields_to_shift_types.php`
 - `db/migrations/YYYY_MM_DD_000005_add_minor_fields_to_shifts.php`
 - `db/migrations/YYYY_MM_DD_000006_add_quota_flag_to_shift_entries.php`
 - `src/Models/MinorCategory.php` (new)
 - `src/Models/User/User.php` (modify - add minor_category relation)
 - `src/Models/UserGuardian.php` (new)
 - `src/Models/UserSupervisorStatus.php` (new)
-- `src/Models/AngelType.php` (modify - add work_category)
+- `src/Models/Shifts/ShiftType.php` (modify - add work_category, allows_accompanying_children)
 - `src/Models/Shifts/Shift.php` (modify)
 - `src/Models/Shifts/ShiftEntry.php` (modify)
 
@@ -177,17 +187,17 @@ class MinorRestrictions {
   - For guardian registering minor: create linked account
 - Category descriptions explain applicable restrictions
 
-### Phase 5: Angel Type Work Category Classification
+### Phase 5: Shift Type Work Category Classification
 **Files:**
-- `src/Controllers/Admin/AngelTypesController.php` (modify)
-- `src/Controllers/AngelTypesController.php` (modify)
-- `resources/views/admin/angeltypes/edit.twig` (modify)
-- `resources/views/pages/angeltypes/about.twig` (modify)
+- `src/Controllers/Admin/ShiftTypesController.php` (modify)
+- `resources/views/admin/shifttypes/edit.twig` (modify)
 
 **Changes:**
-- Add work category selector to angel type admin
-- Display work category restrictions on angel type pages
-- Filter angel types by user's minor category eligibility
+- Add work category selector to shift type admin (A/B/C dropdown)
+- Add "allows accompanying children" checkbox to shift type admin
+- Display work category on shift type listings
+- Shift creation inherits work category from selected ShiftType
+- Per-shift override UI for work category and accompanying children
 
 ### Phase 6: Supervisor Pre-Registration
 **Files:**
@@ -338,46 +348,52 @@ class MinorRestrictions {
 - Profile shows "Pending" status visible to Heaven staff
 - Can update own profile information
 
-### US-03: Angel Type Work Category Classification
+### US-03: Shift Type Work Category Classification
 **As an** admin
-**I want to** classify angel types by work category
+**I want to** classify shift types by work category and accompanying children policy
 **So that** minors are only shown shifts they can legally work
 
 **Acceptance Criteria:**
 
 *Admin Configuration:*
-- Admin edit form includes work category dropdown: A, B, C
-- Default category for new angel types is C (adults only) - fail-safe
+- Shift type edit form includes work category dropdown: A, B, C
+- Default category for new shift types is A (permissive) - most shift types are suitable
 - Category selection includes tooltip explaining each category's meaning:
   - A: Suitable for all minors 13+ (light work, no hazards)
   - B: Teen Angels only (moderate responsibility)
   - C: Adults only (hazards, alcohol, security, etc.)
-- Bulk edit capability to update multiple angel types at once
+- "Allows accompanying children" checkbox (default: unchecked)
+- Bulk edit capability to update multiple shift types at once
 - Audit log records category changes with timestamp and admin user
 
 *Category Display:*
-- Angel type list view shows work category badge/icon
+- Shift type list view shows work category badge/icon
 - Color coding: A = green, B = yellow, C = red (or similar visual distinction)
 - Category tooltip shows full description on hover
-- Public angel type pages clearly display category and who is eligible
+- "Accompanying children allowed" icon shown where applicable
 - Search/filter by work category in admin view
 
+*Shift Override:*
+- Individual shifts can override the ShiftType's work category
+- Dropdown: "Use ShiftType default" / "Override: A" / "Override: B" / "Override: C"
+- Shifts can override the accompanying children setting
+- Visual indicator on shift calendar when overrides are set
+
 *User Filtering:*
-- Angel type listings only show types user is eligible for based on their minor category
-- Filtering uses `minor_category.allowed_work_categories` JSON field
-- Ineligible angel types can optionally be shown greyed out with explanation
-- Guardian dashboard shows all categories but marks which their minor is eligible for
+- Shift calendar filters shifts by user's eligibility based on effective work category
+- Effective category = Shift.work_category_override ?? ShiftType.work_category ?? 'A'
+- Ineligible shifts can be shown greyed out with explanation
+- Guardian dashboard shows all shifts but marks which their minor is eligible for
 
 *Validation Rules:*
-- Cannot assign work category A angel type if user's minor category doesn't include A
-- Cannot assign work category B angel type if user's minor category doesn't include B
-- Cannot assign work category C angel type to any user with a minor category set
-- Validation prevents saving shift entry if work category doesn't match user eligibility
+- Cannot sign up for shift if effective work category not in user's `minor_category.allowed_work_categories`
+- Validation uses `getEffectiveWorkCategory()` method on Shift model
+- Clear error message explaining the category mismatch
 
 *Migration & Defaults:*
-- Migration sets all existing angel types to Category C (safest default)
-- Admin must explicitly review and recategorize each angel type
-- System flag tracks whether angel type review has been completed
+- Migration sets all existing shift types to Category A (most permissive - admin must review)
+- Migration sets allows_accompanying_children to false by default
+- Admin should review and adjust shift types as needed
 
 ### US-04: Shift Signup Validation
 **As a** minor or guardian
@@ -406,7 +422,8 @@ class MinorRestrictions {
 - Show list of available supervisors on the shift (if any)
 
 *Work Category Validation:*
-- Block signup if angel type work category not in `minor_category.allowed_work_categories`
+- Block signup if shift's effective work category not in `minor_category.allowed_work_categories`
+- Effective category = Shift.work_category_override ?? ShiftType.work_category ?? 'A'
 - Clear message explaining which categories the user is permitted
 
 *Consent Validation:*
@@ -618,14 +635,14 @@ class MinorRestrictions {
 
 ### Modified Models
 - `src/Models/User/User.php` (add minor_category relation)
-- `src/Models/AngelType.php` (add work_category)
-- `src/Models/Shifts/Shift.php` (add minor supervision fields)
+- `src/Models/Shifts/ShiftType.php` (add work_category, allows_accompanying_children)
+- `src/Models/Shifts/Shift.php` (add minor supervision fields, work_category_override, allows_accompanying_children_override)
 - `src/Models/Shifts/ShiftEntry.php` (add quota flag, supervisor relation)
 
 ### Modified Controllers
 - `src/Controllers/RegistrationController.php`
 - `src/Controllers/SettingsController.php`
-- `src/Controllers/Admin/AngelTypesController.php`
+- `src/Controllers/Admin/ShiftTypesController.php`
 - `src/Controllers/ShiftsController.php`
 
 ### New Views
@@ -637,7 +654,7 @@ class MinorRestrictions {
 ### Modified Views
 - `resources/views/pages/registration.twig`
 - `resources/views/pages/settings/settings.twig`
-- `resources/views/admin/angeltypes/edit.twig`
+- `resources/views/admin/shifttypes/edit.twig`
 - Various shift-related views
 
 ---
@@ -648,7 +665,7 @@ class MinorRestrictions {
 |-------|-------|-------------|--------------|
 | 1 | Phase 1 | Core data model migrations | None |
 | 2 | Phase 2 | Minor category service | Phase 1 |
-| 3 | Phase 5 | Angel type work category classification | Phase 1, 2 |
+| 3 | Phase 5 | Shift type work category classification | Phase 1, 2 |
 | 4 | Phase 6 | Supervisor pre-registration | Phase 1 |
 | 5 | Phase 4 | Registration flow updates | Phase 1, 2 |
 | 6 | Phase 3 | Guardian management | Phase 1, 2, 4 |
